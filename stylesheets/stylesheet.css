@@ -58,7 +58,7 @@
 }
 
 html, body {
-    margin: 0;
+    margin: 0 auto;
     overflow-x: hidden;
     background: #f6f6f6;
 }
@@ -106,6 +106,7 @@ html, body {
 .activityInfo p{
     margin: 10px 0;
     color: #444444;
+    font-size: 15px;
 }
 
 .activityInfo p i{
@@ -127,9 +128,22 @@ html, body {
 }
 
 .mainText p{
-    tab-size: 16px;
+    font-size: 16px;
     margin: 0;
     line-height: 20px;
+    text-indent: 32px;
+}
+
+.mainText img+p{
+    margin-top: 8px;
+}
+
+.mainText p+p{
+    margin-top: 8px;
+}
+
+.mainText p+img{
+    margin-top: 8px;
 }
 
 .footer {

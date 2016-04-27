@@ -9,3 +9,9 @@ $(document).ready(
         $(".titleImg").height((0.5 + $(".titleImg").width() / 16 * 9) | 0);
     }
 );
+
+$(window).resize(
+    function () {
+        $(".titleImg").height((0.5 + $(".titleImg").width() / 16 * 9) | 0);
+    }
+);
