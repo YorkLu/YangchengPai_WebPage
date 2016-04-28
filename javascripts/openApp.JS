@@ -2,22 +2,22 @@ if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SA
     if(window.location.href.indexOf("?mobile")<0){
         try{
             if(/micromessenger/i.test(navigator.userAgent)){
-                $(".info-weixin").fadeOut();
+                $(".info-weixin").fadeIn();
             }
             else if(/Android/i.test(navigator.userAgent)) {
                 var url = 'youngpai://home';
-                if(navigator.userAgent.match(/ucbrowser/i)){
-                    document.getElementById('iframe').src = url;
-                } else {
-                    window.location.href = url;
-                }
+                window.location.href = url;
+                document.getElementById('iframe').src = url;
             }
             else if(/iPhone|iPod|iPad/i.test(navigator.userAgent)){
                 window.location = "youngpai://";
             }
             else{
-                
+                window.location.href = "http://pai.ycwb.com/responsive.html";
             }
         }catch(e){}
     }
+}
+else{
+    window.location.href = "http://pai.ycwb.com/";
 }
