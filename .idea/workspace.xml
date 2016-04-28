@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002d7eed-2fbd-4789-981b-d20602baed23" name="Default" comment="Debug">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/applinks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/applinks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/applinks.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/openApp.JS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openApp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/openApp.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/openApp.JS" afterPath="$PROJECT_DIR$/javascripts/openApp.JS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openApp.html" afterPath="$PROJECT_DIR$/openApp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="YangchengPai_WebPage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,21 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="825">
               <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="openApp.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openApp.html">
+      <file leaf-file-name="applinks.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/applinks.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -47,8 +52,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="openApp.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/openApp.css">
+      <file leaf-file-name="applinks.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/applinks.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
@@ -57,8 +62,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="openApp.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javascripts/openApp.js">
+      <file leaf-file-name="applinks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascripts/applinks.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
@@ -105,9 +110,9 @@
         <option value="$PROJECT_DIR$/javascripts/contentGenerator.js" />
         <option value="$PROJECT_DIR$/stylesheets/openApp.css" />
         <option value="$PROJECT_DIR$/javascripts/myGenerator.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/openApp.html" />
         <option value="$PROJECT_DIR$/javascripts/openApp.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -310,7 +315,7 @@
       <option name="presentableId" value="Default" />
       <updated>1461739275528</updated>
       <workItem from="1461739279810" duration="13150000" />
-      <workItem from="1461830039858" duration="7521000" />
+      <workItem from="1461830039858" duration="7807000" />
     </task>
     <task id="LOCAL-00001" summary="活动派静态页">
       <created>1461753784740</created>
@@ -347,11 +352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461837617568</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Debug">
+      <created>1461838163543</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1461838163543</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20671000" />
+    <option name="totallyTimeSpent" value="20957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="286" y="367" width="1570" height="952" extended-state="0" />
@@ -384,9 +396,9 @@
     <MESSAGE value="活动派静态页" />
     <MESSAGE value="文字排版优化" />
     <MESSAGE value="通过浏览器启动App" />
-    <MESSAGE value="Debug" />
     <MESSAGE value="替换 placeholder 来源" />
-    <option name="LAST_COMMIT_MESSAGE" value="替换 placeholder 来源" />
+    <MESSAGE value="Debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -440,15 +452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/openApp.css">
+    <entry file="file://$PROJECT_DIR$/stylesheets/applinks.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
@@ -456,10 +460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openApp.html">
+    <entry file="file://$PROJECT_DIR$/applinks.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -476,10 +480,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/openApp.js">
+    <entry file="file://$PROJECT_DIR$/javascripts/applinks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
           <folding />
         </state>
       </provider>
