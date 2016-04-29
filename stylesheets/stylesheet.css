@@ -1,7 +1,7 @@
-/*编码: YorkLu      */
-/*日期: 2016-04-27  */
+/* 编码: YorkLu      */
+/* 日期: 2016-04-27  */
 
-/*自托管 Google Web Fonts*/
+/* 自托管 Google Web Fonts */
 @font-face {
     font-family: 'Material Icons';
     font-style: normal;
@@ -61,7 +61,7 @@
     color: #ababab;
 }
 
-/*静态页样式*/
+/* 静态页样式 */
 @media (min-width: 751px) {
     html, body {
         max-width: 750px;
@@ -177,4 +177,56 @@ html, body {
 .footer a {
     text-decoration: none;
     color: #26A3EC;
+}
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: .4;
+    z-index: 2;
+    display: none;
+}
+
+.weixin-browser-help {
+    top: 10px;
+    display: none;
+}
+
+.help-modal {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    background: #ffffff;
+    text-align: center;
+    z-index: 3;
+}
+
+.weixin-browser-help p{
+    margin: 10px auto 10px;
+    font-size: 16px;
+}
+
+
+/* UI 颜色规范 */
+.text-blue{
+    color: #26A3EC;
+}
+.text-green{
+    color: #8BC34A;
+}
+.text-yellow{
+    color: #FFD450;
+}
+.text-orange{
+    color: #FF7A3F;
+}
+.text-red{
+    color: #FF4E63;
 }
