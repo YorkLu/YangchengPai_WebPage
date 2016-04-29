@@ -20,6 +20,19 @@ $(document).ready(
             $(".weixin-browser-help").hide();
             $(this).hide();
         })
+
+        // 根据终端修改文字内容
+        if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))) {
+            if (window.location.href.indexOf("?mobile") < 0) {
+                try {
+                    if (/iPhone|iPod|iPad/i.test(navigator.userAgent)) {
+                        $(".browser-guide").text("选择「在Safari中打开」后再次尝试~");
+                    }
+
+                } catch (e) {
+                }
+            }
+        }
     }
 );
 
