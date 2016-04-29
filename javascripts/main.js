@@ -10,12 +10,13 @@ $(document).ready(
 
         /*
          * TODO:仅测试时使用,发布前请注释掉
-         * ContentGenerator: 内容生成器
+         * myGenerator: 内容生成器
          * */
         contentGenerator();
     }
 );
 
+// 窗口大小发生改变
 $(window).resize(
     function () {
         $(".titleImg").height((0.5 + $(".titleImg").width() / 16 * 9) | 0);
