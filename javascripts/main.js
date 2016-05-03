@@ -14,6 +14,14 @@ $(document).ready(
          * */
         contentGenerator();
 
+        // "盘古之白"(全角半角字符之间加空格)
+        pangu.spacingElementByTagName('p');
+
+        // 懒加载
+        $('img').lazyload({
+            effect:'fadeIn'
+        });
+
         // 绑定事件
         $(".openApp").bind('top click',openApp);
         $(".backdrop").bind('top click',function () {
@@ -28,7 +36,6 @@ $(document).ready(
                     if (/iPhone|iPod|iPad/i.test(navigator.userAgent)) {
                         $(".browser-guide").text("选择「在Safari中打开」后再次尝试~");
                     }
-
                 } catch (e) {
                 }
             }

@@ -24,6 +24,11 @@ function contentGenerator() {
     }
 }
 
+/*
+ * 使用懒加载时图片标签的写法
+ * <img class="lazy" src="grey.png" data-original="example.jpg" width="640" heigh="480">
+ * */
+
 // Places and things courtesy of Unsplash | https://placem.at/
 function placemat(seed, i) {
     if (seed > 0.75) {
@@ -52,14 +57,17 @@ function lorempixel(seed, i) {
 
 
 // http://www.66tools.com/WebTools/randomHolder.html
+// 使用懒加载
 function randomHolder(seed, i) {
+    var ratio = ($(document.body).width()-32) / 400;
+    console.log(ratio);
     if (seed > 0.75) {
-        $(".contentGenerator").append('<img src="http://www.66tools.com/WebTools/rImage?p=400-' + (200 + i + '') + '">');
+        $(".contentGenerator").append('<img data-original="http://www.66tools.com/WebTools/rImage?p=400-' + (200 + i + '') + '" src="images/grey.png" height="' + ((ratio * (200.5 + i )) | 0 + '') + '">');
     }
     else if (seed > 0.45) {
-        $(".contentGenerator").append('<img src="http://www.66tools.com/WebTools/rImage?p=400-' + (300 + i + '') + '">');
+        $(".contentGenerator").append('<img data-original="http://www.66tools.com/WebTools/rImage?p=400-' + (300 + i + '') + '" src="images/grey.png" height="' + ((ratio * (300.5 + i )) | 0 + '') + '">');
     }
     else {
-        $(".contentGenerator").append('<img src="http://www.66tools.com/WebTools/rImage?p=400-' + (400 + i + '') + '">');
+        $(".contentGenerator").append('<img data-original="http://www.66tools.com/WebTools/rImage?p=400-' + (400 + i + '') + '" src="images/grey.png" height="' + ((ratio * (400.5 + i )) | 0 + '') + '">');
     }
 }
