@@ -10,7 +10,7 @@ $(document).ready(
 
         /*
          * TODO:仅测试时使用,发布前请注释掉
-         * myGenerator: 内容生成器
+         * 内容生成器
          * */
         contentGenerator();
 
@@ -18,13 +18,16 @@ $(document).ready(
         pangu.spacingElementByTagName('p');
 
         // 懒加载
-        $('img').lazyload({
+        $('.mainText img').lazyload({
             effect:'fadeIn'
         });
 
+        // 灯箱效果(模态对话框样式查看图片)
+        setSwipeBox();
+
         // 绑定事件
         $(".openApp").bind('top click',openApp);
-        $(".backdrop").bind('top click',function () {
+        $(".backdrop-light").bind('top click',function () {
             $(".weixin-browser-help").hide();
             $(this).hide();
         })
@@ -56,7 +59,7 @@ function openApp() {
         if(window.location.href.indexOf("?mobile")<0){
             try{
                 if(/micromessenger/i.test(navigator.userAgent)){
-                    $(".backdrop").show();
+                    $(".backdrop-light").show();
                     $(".weixin-browser-help").show();
                 }
                 else if(/Android/i.test(navigator.userAgent)) {
@@ -90,12 +93,46 @@ function openApp() {
     }
 }
 
+// 跳转到下载页
 function gotoDownload() {
     window.location.href = "http://pai.ycwb.com/";
 }
 
+// 获取 url 参数
 function getUrlParam(name) {
     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
     var r = window.location.search.substr(1).match(reg);  //匹配目标参数
     if (r != null) return decodeURI(r[2]); return null; //返回参数值
+}
+
+// 初始化灯箱效果
+function setSwipeBox() {
+
+    $(".mainText img").each(function () {
+        var imgCopy = $(this).clone();
+        imgCopy.attr({"width":$(document.body).width(),"src":imgCopy.attr("data-original")});
+        imgCopy.removeAttr("height");
+        imgCopy.addClass("slide-img")
+        $(".swipeBox").append(imgCopy);
+        // $(this).bind("click tap",function () {
+        //     $(".swipeBoxWarpper").css("display","table");
+        //     $(".backdrop-dark").fadeIn('fast');
+        //     $(".swipeBoxWarpper").fadeTo("slow",1);
+        // })
+    })
+
+    touch.on('.swipeBoxCell', 'hold tap doubletap', function(ev){
+        if(ev.type == 'tap'){
+            $(".swipeBoxWarpper").fadeOut('fast',function () {
+                $(".backdrop-dark").fadeOut('fast');
+            });
+        }
+    });
+
+    touch.on('.slide-img', 'hold tap doubletap', function(ev){
+        if(ev.type == 'doubletap'){
+            var _this = this;
+            console.log(_this.attr('width'));
+        }
+    });
 }
