@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002d7eed-2fbd-4789-981b-d20602baed23" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/mySwipeBox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/touch-0.2.14.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/myViewer.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/grey.png" afterPath="$PROJECT_DIR$/images/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/moretext-1.2.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/moreText.JS" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/main.js" afterPath="$PROJECT_DIR$/javascripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/myGenerator.js" afterPath="$PROJECT_DIR$/javascripts/myGenerator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="$PROJECT_DIR$/stylesheets/stylesheet.css" />
     </list>
     <ignored path="YangchengPai_WebPage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="783">
@@ -75,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="moreText.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascripts/moreText.js">
+      <file leaf-file-name="moretext-1.2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascripts/moretext-1.2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -131,8 +126,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="200" />
-    <option name="y" value="84" />
+    <option name="x" value="206" />
+    <option name="y" value="428" />
     <option name="width" value="1821" />
     <option name="height" value="1084" />
   </component>
@@ -335,7 +330,7 @@
       <workItem from="1461893022778" duration="15379000" />
       <workItem from="1462241085103" duration="13161000" />
       <workItem from="1462266717546" duration="5644000" />
-      <workItem from="1462325801015" duration="7166000" />
+      <workItem from="1462325801015" duration="7474000" />
     </task>
     <task id="LOCAL-00001" summary="活动派静态页">
       <created>1461753784740</created>
@@ -414,19 +409,27 @@
       <option name="project" value="LOCAL" />
       <updated>1462248821893</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="样式优化">
+      <created>1462344462876</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1462344462876</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64743000" />
+    <option name="totallyTimeSpent" value="65051000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="84" width="1821" height="1084" extended-state="0" />
-    <editor active="true" />
+    <frame x="206" y="428" width="1821" height="1084" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15870401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15870401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906404" sideWeight="0.501922" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -435,7 +438,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -466,7 +468,8 @@
     <MESSAGE value="完善打开App流程" />
     <MESSAGE value="针对iOS修改文字" />
     <MESSAGE value="1. 懒加载&#10;2. 盘古之白" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 懒加载&#10;2. 盘古之白" />
+    <MESSAGE value="样式优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="样式优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -519,7 +522,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/moreText.js">
+    <entry file="file://$PROJECT_DIR$/javascripts/moretext-1.2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2115">
           <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
@@ -696,14 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/moreText.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascripts/touch-0.2.14.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -746,6 +741,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
           <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/moretext-1.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="43" />
           <folding />
         </state>
       </provider>
