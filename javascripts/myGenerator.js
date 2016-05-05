@@ -9,17 +9,15 @@ function contentGenerator() {
     // 随机数: parseInt(Math.random()*(max-min+1)+min,10);
     var contentCounter = (Math.random() * (12) + 2.5) | 0;
     for (var i = 0; i < contentCounter; i++) {
-        if (i % 2 == 0) {
-            $(".footer").before('<p class="lipsum(5,5-25)"></p>');
+        if (Math.random()>0.4) {
+            if(Math.random()>0.5)
+             $(".footer").before('<p class="lipsum(5,5-25)"></p>');
+            else
+                $(".footer").before('<p class="lipsum(3,15-70)"></p>');
         }
         else {
             var seed = Math.random();
-            if (seed > 0.3) {
-                randomHolder(seed, i);
-            }
-            else {
-                $(".footer").before('<p class="lipsum(3,15-70)"></p>');
-            }
+            randomHolder(seed, i);
         }
     }
 }
@@ -28,10 +26,10 @@ function contentGenerator() {
 // 图片质量最好但是要翻墙
 // Places and things courtesy of Unsplash | https://placem.at/
 function placemat(seed, i) {
-    if (seed > 0.75) {
+    if (seed > 0.66) {
         $(".footer").before('<img src="https://placem.at/things?w=400&txt=0&overlay_color=0000&random=' + i + '">');
     }
-    else if (seed > 0.45) {
+    else if (seed > 0.33) {
         $(".footer").before('<img src="https://placem.at/places?w=400&txt=0&overlay_color=0000&random=' + i + '">');
     }
     else {
@@ -41,10 +39,10 @@ function placemat(seed, i) {
 
 // http://lorempixel.com/
 function lorempixel(seed, i) {
-    if (seed > 0.75) {
+    if (seed > 0.66) {
         $(".footer").before('<img src="http://lorempixel.com/animals/400/' + (200 + i + '') + '">');
     }
-    else if (seed > 0.45) {
+    else if (seed > 0.33) {
         $(".footer").before('<img src="http://lorempixel.com/city/400/' + (300 + i + '') + '">');
     }
     else {
@@ -64,10 +62,10 @@ function randomHolder(seed, i) {
     var imgWidth = $(document.body).width()-32;
     var imgRatio = imgWidth / 400;
     // console.log(imgRatio+" "+imgWidth);
-    if (seed > 0.75) {
+    if (seed > 0.66) {
         $(".footer").before('<img data-original="http://www.66tools.com/WebTools/rImage?p=400-' + (200 + i + '') + '" src="images/grey.png" height="' + ((imgRatio * (200.5 + i )) | 0 + '') + '" width="'+imgWidth+'">');
     }
-    else if (seed > 0.45) {
+    else if (seed > 0.33) {
         $(".footer").before('<img data-original="http://www.66tools.com/WebTools/rImage?p=400-' + (300 + i + '') + '" src="images/grey.png" height="' + ((imgRatio * (300.5 + i )) | 0 + '') + '" width="'+imgWidth+'">');
     }
     else {
