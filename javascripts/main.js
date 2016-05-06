@@ -1,6 +1,6 @@
 /*
- * Author:   YorkLu
- * Date:     2016-04-27
+ * 编码: 陆扬
+ * 日期: 2016-04-27
  * */
 
 $(document).ready(
