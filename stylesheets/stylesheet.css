@@ -88,8 +88,8 @@ html, body {
 }
 
 .titleImg {
-    background: url(../images/titleImg.jpeg) center center;
-    background-size: cover;
+    background: url(../images/titleImg.jpg) center center;
+    background-size: 100%;
     position: relative;
 }
 
@@ -109,6 +109,7 @@ html, body {
     padding: 8px 16px;
     font-size: 17px;
     color: white;
+    line-height: 120%;
 }
 
 .activityInfo {

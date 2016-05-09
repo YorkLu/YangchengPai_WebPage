@@ -43,6 +43,9 @@ $(document).ready(
                 }
             }
         }
+
+        // 视差滚动
+        parallaxScrolling();
     }
 );
 
@@ -146,30 +149,45 @@ function setSwipeBox() {
     $(".swipeBoxWarpper").css("width", imgCtn + '00%');
 
     // 单击隐藏
-    touch.on('.swipeBoxWarpper', 'hold tap doubletap', function (ev) {
-        if (ev.type == 'tap') {
-            $(".swipeBoxWarpper").fadeOut('fast', function () {
-                $(".backdrop-dark").fadeOut('fast');
-                $(".swipeBoxWarpper").css({"display": "none"});
-                $(".swipeBoxWarpper").css("webkitTransition", 'all ease 0s');
-            });
-        }
-    });
+    // touch.on('.swipeBoxWarpper', 'hold tap doubletap', function (ev) {
+    //     if (ev.type == 'tap') {
+    //         $(".swipeBoxWarpper").fadeOut('fast', function () {
+    //             $(".backdrop-dark").fadeOut('fast');
+    //             $(".swipeBoxWarpper").css({"display": "none"});
+    //             $(".swipeBoxWarpper").css("webkitTransition", 'all ease 0s');
+    //         });
+    //     }
+    // });
 
-    // 单击&双击图片
-    touch.on('.slide', 'hold tap doubletap', function (ev) {
-        if (ev.type == 'tap') {
-            $(".swipeBoxWarpper").fadeOut('fast', function () {
-                $(".backdrop-dark").fadeOut('fast');
-                $(".swipeBoxWarpper").css({"display": "none"});
-                $(".swipeBoxWarpper").css("webkitTransition", 'all ease 0s');
-            });
-        }
-        else if (ev.type == 'doubletap') {
-            // var w = $(this).addClass("slide-bigger");
-        }
-        return false;
-    });
+    $('.swipeBoxWarpper').bind("click tap",function () {
+        $(".swipeBoxWarpper").fadeOut('fast', function () {
+            $(".backdrop-dark").fadeOut('fast');
+            $(".swipeBoxWarpper").css({"display": "none"});
+            $(".swipeBoxWarpper").css("webkitTransition", 'all ease 0s');
+        });
+    })
+
+    // 单击图片
+    // touch.on('.slide', 'hold tap doubletap', function (ev) {
+    //     if (ev.type == 'tap') {
+    //         $(".swipeBoxWarpper").fadeOut('fast', function () {
+    //             $(".backdrop-dark").fadeOut('fast');
+    //             $(".swipeBoxWarpper").css({"display": "none"});
+    //             $(".swipeBoxWarpper").css("webkitTransition", 'all ease 0s');
+    //         });
+    //     }
+    //     else if (ev.type == 'doubletap') {
+    //         // var w = $(this).addClass("slide-bigger");
+    //     }
+    //     return false;
+    // });
+    $('.slide').bind("click tap",function () {
+        $(".swipeBoxWarpper").fadeOut('fast', function () {
+            $(".backdrop-dark").fadeOut('fast');
+            $(".swipeBoxWarpper").css({"display": "none"});
+            $(".swipeBoxWarpper").css("webkitTransition", 'all ease 0s');
+        });
+    })
 
     // 左右滑
     var swipeBoxAt = 0;
@@ -191,5 +209,17 @@ function setSwipeBox() {
             $(".swipeBoxWarpper").css("webkitTransition", 'all ease 0.2s');
             $(".swipeBoxWarpper").css("webkitTransform", "translate3d(" + $(".swipeBox").width() * swipeBoxAt + "px,0,0)");
         }
+    });
+}
+
+// 视差效果
+function parallaxScrolling() {
+    var titleImgHeight = $(".titleImg").height();
+    $(window).bind("scroll",function () {
+        // 如果要做视差效果,去掉下面几句的注释
+        // var diff = $("body").scrollTop()-$(".titleImg").offset().top;
+        // if(diff>0&&diff<titleImgHeight){
+        //     $(".titleImg").css("background-size",(100+20*diff/titleImgHeight)+'%');
+        // }
     });
 }
