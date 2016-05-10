@@ -36,7 +36,7 @@
 
             myScroll.on('zoomEnd', function () {
                 alert((myScroll.scale-1)/2*$("#scroller").height());
-                $("#scroller").css("top",(myScroll.scale-1)/2*$("#scroller").height()+'px');
+                $("#scroller").css("top",(1-myScroll.scale)/2*$("#scroller").height()+'px');
             });
 
 //            myScroll.on('scrollEnd', function () {
