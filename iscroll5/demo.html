@@ -25,7 +25,7 @@
 
             myScroll = new IScroll('#wrapper', {
                 scrollX: true,
-                scrollY: true,
+                scrollY: false,
                 mouseWheel: true,
                 snap: true,
                 momentum: false,
@@ -33,6 +33,7 @@
                 mouseWheel: true,
                 wheelAction: 'zoom'
             });
+
         }
 
         document.addEventListener('touchmove', function (e) {
