@@ -35,6 +35,7 @@
             });
 
             myScroll.on('zoomEnd', function () {
+                alert((myScroll.scale-1)/2*$("#scroller").height());
                 $("#scroller").css("top",(myScroll.scale-1)/2*$("#scroller").height()+'px');
             });
 
