@@ -27,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+            <state relative-caret-position="855">
+              <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -69,21 +69,9 @@
       <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="42" />
+            <state relative-caret-position="495">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iscroll-zoom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iscroll5/iscroll-zoom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32460">
-              <caret line="2164" column="43" selection-start-line="2164" selection-start-column="43" selection-end-line="2164" selection-end-column="43" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -321,7 +309,7 @@
       <workItem from="1462412500935" duration="7936000" />
       <workItem from="1462498802398" duration="5202000" />
       <workItem from="1462760441371" duration="5676000" />
-      <workItem from="1462845400717" duration="11007000" />
+      <workItem from="1462845400717" duration="11936000" />
     </task>
     <task id="LOCAL-00001" summary="活动派静态页">
       <created>1461753784740</created>
@@ -533,11 +521,18 @@
       <option name="project" value="LOCAL" />
       <updated>1462873598813</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="测试">
+      <created>1462874038807</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1462874038807</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106438000" />
+    <option name="totallyTimeSpent" value="107367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="23" width="2048" height="1084" extended-state="0" />
@@ -863,17 +858,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        <state relative-caret-position="855">
+          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/iscroll5/iscroll-zoom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="245" column="27" selection-start-line="244" selection-start-column="4" selection-end-line="245" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="735">
+          <caret line="364" column="22" selection-start-line="364" selection-start-column="22" selection-end-line="364" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -887,6 +884,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="245" column="27" selection-start-line="244" selection-start-column="4" selection-end-line="245" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javascripts/myGenerator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -895,20 +900,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iscroll5/iscroll-zoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32460">
-          <caret line="2164" column="43" selection-start-line="2164" selection-start-column="43" selection-end-line="2164" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="42" />
+        <state relative-caret-position="495">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
