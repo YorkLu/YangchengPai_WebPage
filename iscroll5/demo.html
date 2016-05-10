@@ -25,9 +25,9 @@
 
             myScroll = new IScroll('#wrapper', {
                 scrollX: true,
-                scrollY: false,
+                scrollY: true,
                 mouseWheel: true,
-                snap: true,
+//                snap: true,
                 momentum: false,
                 zoom: true,
                 mouseWheel: true,
@@ -36,6 +36,7 @@
 
             myScroll.on('zoomEnd', function () {
                 $("#scroller").css("top",(1-myScroll.scale)/2*$("#scroller").height()+'px');
+                $("#scroller").width($(document.body).width());
             });
 
             myScroll.on('flicked', function () {
