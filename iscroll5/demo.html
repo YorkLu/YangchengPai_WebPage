@@ -35,8 +35,14 @@
             });
 
             myScroll.on('zoomEnd', function () {
-                alert(myScroll.scale);
+                $("#scroller").css("top",(myScroll.scale-1)/2*$(document.body).height()+'px');
             });
+
+            myScroll.on('scrollEnd', function () {
+                myScroll.scale(1,300);
+                $("#scroller").css("top",'0');
+            })
+
 
         }
 
