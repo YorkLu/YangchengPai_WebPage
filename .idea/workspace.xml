@@ -69,8 +69,8 @@
       <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="585">
+              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -139,8 +139,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-104" />
-    <option name="y" value="67" />
+    <option name="x" value="70" />
+    <option name="y" value="23" />
     <option name="width" value="2048" />
     <option name="height" value="1084" />
   </component>
@@ -321,7 +321,7 @@
       <workItem from="1462412500935" duration="7936000" />
       <workItem from="1462498802398" duration="5202000" />
       <workItem from="1462760441371" duration="5676000" />
-      <workItem from="1462845400717" duration="5233000" />
+      <workItem from="1462845400717" duration="6035000" />
     </task>
     <task id="LOCAL-00001" summary="活动派静态页">
       <created>1461753784740</created>
@@ -470,14 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1462866432945</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="测试缩放3">
+      <created>1462867468069</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1462867468069</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100664000" />
+    <option name="totallyTimeSpent" value="101466000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-104" y="67" width="2048" height="1084" extended-state="0" />
+    <frame x="70" y="23" width="2048" height="1084" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -532,11 +539,12 @@
     <MESSAGE value="测试iscroll插件" />
     <MESSAGE value="测试缩放" />
     <MESSAGE value="测试缩放2" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试缩放2" />
+    <MESSAGE value="测试缩放3" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试缩放3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -839,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="585">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding />
         </state>
       </provider>

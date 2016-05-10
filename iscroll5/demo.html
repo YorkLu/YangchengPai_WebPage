@@ -34,6 +34,10 @@
                 wheelAction: 'zoom'
             });
 
+            myScroll.on('zoomEnd', function () {
+                alert(myScroll.scale);
+            });
+
         }
 
         document.addEventListener('touchmove', function (e) {
