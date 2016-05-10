@@ -52,7 +52,7 @@ function lorempixel(seed, i) {
 
 /*
  * 使用懒加载时图片标签的写法
- * <img class="lazy" src="grey.png" data-original="example.jpg" width="640" heigh="480">
+ * <img class="lazy" src="grey_1px.png" data-original="example.jpg" width="640" heigh="480">
  * */
 
 // http://www.66tools.com/WebTools/randomHolder.html
@@ -63,12 +63,12 @@ function randomHolder(seed, i) {
     var imgRatio = imgWidth / 400;
     // console.log(imgRatio+" "+imgWidth);
     if (seed > 0.66) {
-        $(".footer").before('<img data-original="http://www.66tools.com/WebTools/rImage?p=400-' + (200 + i + '') + '" src="images/grey.png" height="' + ((imgRatio * (200.5 + i )) | 0 + '') + '" width="'+imgWidth+'">');
+        $(".footer").before('<img data-original="http://www.66tools.com/WebTools/rImage?p=400-' + (200 + i + '') + '" src="images/grey_1px.png" height="' + ((imgRatio * (200.5 + i )) | 0 + '') + '" width="'+imgWidth+'">');
     }
     else if (seed > 0.33) {
-        $(".footer").before('<img data-original="http://www.66tools.com/WebTools/rImage?p=400-' + (300 + i + '') + '" src="images/grey.png" height="' + ((imgRatio * (300.5 + i )) | 0 + '') + '" width="'+imgWidth+'">');
+        $(".footer").before('<img data-original="http://www.66tools.com/WebTools/rImage?p=400-' + (300 + i + '') + '" src="images/grey_1px.png" height="' + ((imgRatio * (300.5 + i )) | 0 + '') + '" width="'+imgWidth+'">');
     }
     else {
-        $(".footer").before('<img data-original="http://www.66tools.com/WebTools/rImage?p=400-' + (400 + i + '') + '" src="images/grey.png" height="' + ((imgRatio * (400.5 + i )) | 0 + '') + '" width="'+imgWidth+'">');
+        $(".footer").before('<img data-original="http://www.66tools.com/WebTools/rImage?p=400-' + (400 + i + '') + '" src="images/grey_1px.png" height="' + ((imgRatio * (400.5 + i )) | 0 + '') + '" width="'+imgWidth+'">');
     }
 }
