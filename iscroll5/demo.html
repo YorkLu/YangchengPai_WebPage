@@ -35,13 +35,14 @@
             });
 
             myScroll.on('zoomEnd', function () {
-                $("#scroller").css("top",(myScroll.scale-1)/2*$(document.body).height()+'px');
+                $("#scroller").css("top",(myScroll.scale-1)/2*$("#scroller").height()+'px');
             });
 
             myScroll.on('scrollEnd', function () {
-                myScroll.scale(1,300);
+                myScroll.zoom(1,300);
                 $("#scroller").css("top",'0');
             })
+
 
 
         }

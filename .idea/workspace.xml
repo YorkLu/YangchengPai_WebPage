@@ -69,8 +69,8 @@
       <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="46" />
+            <state relative-caret-position="630">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -321,7 +321,7 @@
       <workItem from="1462412500935" duration="7936000" />
       <workItem from="1462498802398" duration="5202000" />
       <workItem from="1462760441371" duration="5676000" />
-      <workItem from="1462845400717" duration="7446000" />
+      <workItem from="1462845400717" duration="8685000" />
     </task>
     <task id="LOCAL-00001" summary="活动派静态页">
       <created>1461753784740</created>
@@ -484,11 +484,18 @@
       <option name="project" value="LOCAL" />
       <updated>1462868325098</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="测试自定义事件">
+      <created>1462870227708</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1462870227708</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102877000" />
+    <option name="totallyTimeSpent" value="104116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="23" width="2048" height="1084" extended-state="0" />
@@ -548,7 +555,8 @@
     <MESSAGE value="测试缩放2" />
     <MESSAGE value="测试缩放3" />
     <MESSAGE value="测试输出缩放因子" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试输出缩放因子" />
+    <MESSAGE value="测试自定义事件" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试自定义事件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -855,8 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="46" />
+        <state relative-caret-position="630">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding />
         </state>
       </provider>
