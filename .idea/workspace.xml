@@ -69,8 +69,8 @@
       <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+            <state relative-caret-position="525">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -321,7 +321,7 @@
       <workItem from="1462412500935" duration="7936000" />
       <workItem from="1462498802398" duration="5202000" />
       <workItem from="1462760441371" duration="5676000" />
-      <workItem from="1462845400717" duration="8685000" />
+      <workItem from="1462845400717" duration="9978000" />
     </task>
     <task id="LOCAL-00001" summary="活动派静态页">
       <created>1461753784740</created>
@@ -491,11 +491,39 @@
       <option name="project" value="LOCAL" />
       <updated>1462870227708</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="测试自定义事件2">
+      <created>1462871488362</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1462871488362</updated>
+    </task>
+    <task id="LOCAL-00026" summary="测试自定义事件3">
+      <created>1462872131303</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1462872131303</updated>
+    </task>
+    <task id="LOCAL-00027" summary="测试自定义事件4">
+      <created>1462872263282</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1462872263282</updated>
+    </task>
+    <task id="LOCAL-00028" summary="测试自定义事件4">
+      <created>1462872540115</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1462872540115</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104116000" />
+    <option name="totallyTimeSpent" value="105409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="23" width="2048" height="1084" extended-state="0" />
@@ -533,7 +561,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="活动派静态页" />
     <MESSAGE value="文字排版优化" />
     <MESSAGE value="通过浏览器启动App" />
     <MESSAGE value="替换 placeholder 来源" />
@@ -556,7 +583,10 @@
     <MESSAGE value="测试缩放3" />
     <MESSAGE value="测试输出缩放因子" />
     <MESSAGE value="测试自定义事件" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试自定义事件" />
+    <MESSAGE value="测试自定义事件2" />
+    <MESSAGE value="测试自定义事件3" />
+    <MESSAGE value="测试自定义事件4" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试自定义事件4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -863,8 +893,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        <state relative-caret-position="525">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
           <folding />
         </state>
       </provider>
