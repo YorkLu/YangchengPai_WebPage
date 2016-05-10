@@ -27,7 +27,7 @@
                 scrollX: true,
                 scrollY: true,
                 mouseWheel: true,
-//                snap: true,
+                snap: true,
                 momentum: false,
                 zoom: true,
                 mouseWheel: true,
@@ -35,13 +35,16 @@
             });
 
             myScroll.on('zoomEnd', function () {
-                $("#scroller").css("top",(1-myScroll.scale)/2*$("#scroller").height()+'px');
-                $("#scroller").width($(document.body).width());
+//                $("#scroller").css("top",(1-myScroll.scale)/2*$("#scroller").height()+'px');
+                if(myScroll.scale>1) {
+                    myScroll.snap = false;
+                    $("#scroller").width($(document.body).width());
+                }
+                else{
+                    myScroll.snap = true;
+                    $("#scroller").width($(document.body).width()*10);
+                }
             });
-
-            myScroll.on('flicked', function () {
-                alert("get event");
-            })
 
 
 
