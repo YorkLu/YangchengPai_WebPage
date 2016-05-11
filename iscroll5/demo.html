@@ -40,24 +40,25 @@
 
             myScroll.on('zoomEnd',function () {
                 if(myScroll.scale>1.04){
-
+                    var topValue = -$("#scroller").height*(myScroll.scale-1)/2+"px";
+                    alert(topValue);
+                    $("#scroller").animate({top:topValue},'fast');
                 }
                 else{
                     myScroll.zoom(1,50);
                     myScroll.snap = true;
                     myScroll.scrollY = false;
+                    $("#scroller").css('top','0');
                 }
             })
 
             myScroll.on('scrollStart',function () {
-                alert('scroll start: '+myScroll.scale);
+
             })
 
             myScroll.on('scrollEnd',function () {
-                alert('scroll end: '+myScroll.scale);
+
             })
-
-
         }
 
         document.addEventListener('touchmove', function (e) {
