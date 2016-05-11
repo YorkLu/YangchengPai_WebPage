@@ -34,7 +34,7 @@
             });
 
             myScroll.on('zoomStart', function () {
-                myScroll.options.snap = false;
+//                myScroll.options.snap = false;
                 myScroll.options.scrollY = true;
             });
 
@@ -45,7 +45,7 @@
                 }
                 else{
                     myScroll.zoom(1,50);
-                    myScroll.options.snap = true;
+//                    myScroll.options.snap = true;
                     myScroll.options.scrollY = false;
                     $("#scroller").css('top','0');
                 }
