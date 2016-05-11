@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="002d7eed-2fbd-4789-981b-d20602baed23" name="Default" comment="区分输出">
+    <list default="true" id="002d7eed-2fbd-4789-981b-d20602baed23" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iscroll5/demo.html" afterPath="$PROJECT_DIR$/iscroll5/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iscroll5/iscroll-zoom.js" afterPath="$PROJECT_DIR$/iscroll5/iscroll-zoom.js" />
     </list>
     <ignored path="YangchengPai_WebPage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,12 +66,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+            <state relative-caret-position="45">
+              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iscroll-zoom.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iscroll5/iscroll-zoom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="1134" column="17" selection-start-line="1134" selection-start-column="17" selection-end-line="1134" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,8 +128,8 @@
         <option value="$PROJECT_DIR$/javascripts/main.js" />
         <option value="$PROJECT_DIR$/javascripts/myGenerator.js" />
         <option value="$PROJECT_DIR$/iscroll5/iscroll.js" />
-        <option value="$PROJECT_DIR$/iscroll5/iscroll-zoom.js" />
         <option value="$PROJECT_DIR$/iscroll5/demo.html" />
+        <option value="$PROJECT_DIR$/iscroll5/iscroll-zoom.js" />
       </list>
     </option>
   </component>
@@ -309,7 +321,7 @@
       <workItem from="1462498802398" duration="5202000" />
       <workItem from="1462760441371" duration="5676000" />
       <workItem from="1462845400717" duration="12081000" />
-      <workItem from="1462927948903" duration="1520000" />
+      <workItem from="1462927948903" duration="2185000" />
     </task>
     <task id="LOCAL-00001" summary="活动派静态页">
       <created>1461753784740</created>
@@ -556,11 +568,25 @@
       <option name="project" value="LOCAL" />
       <updated>1462928766626</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="调整位置">
+      <created>1462929486399</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1462929486399</updated>
+    </task>
+    <task id="LOCAL-00037" summary="height() is not height!">
+      <created>1462929625480</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1462929625481</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109032000" />
+    <option name="totallyTimeSpent" value="109697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1084" extended-state="6" />
@@ -598,8 +624,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Debug" />
-    <MESSAGE value="更换占位图来源" />
     <MESSAGE value="完善打开App流程" />
     <MESSAGE value="针对iOS修改文字" />
     <MESSAGE value="1. 懒加载&#10;2. 盘古之白" />
@@ -623,7 +647,9 @@
     <MESSAGE value="继续测试iscroll.js" />
     <MESSAGE value="scrollStart &amp; scrollEnd" />
     <MESSAGE value="区分输出" />
-    <option name="LAST_COMMIT_MESSAGE" value="区分输出" />
+    <MESSAGE value="调整位置" />
+    <MESSAGE value="height() is not height!" />
+    <option name="LAST_COMMIT_MESSAGE" value="height() is not height!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -677,6 +703,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2115">
           <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -854,6 +883,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -863,16 +895,6 @@
         <state relative-caret-position="855">
           <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iscroll5/iscroll-zoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="364" column="22" selection-start-line="364" selection-start-column="22" selection-end-line="364" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,9 +926,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+        <state relative-caret-position="45">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iscroll5/iscroll-zoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="1134" column="17" selection-start-line="1134" selection-start-column="17" selection-end-line="1134" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
