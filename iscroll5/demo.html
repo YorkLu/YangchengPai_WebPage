@@ -34,7 +34,6 @@
             });
 
             myScroll.on('zoomStart', function () {
-//                myScroll.options.snap = false;
                 myScroll.options.scrollY = true;
             });
 
@@ -42,10 +41,10 @@
                 if(myScroll.scale>1.04){
                     var topValue = -$("#scroller").height()*(myScroll.scale-1)/2+"px";
                     $("#scroller").css('top',topValue);
+                    myScroll.options.snap = false;
                 }
                 else{
                     myScroll.zoom(1,50);
-//                    myScroll.options.snap = true;
                     myScroll.options.scrollY = false;
                     $("#scroller").css('top','0');
                 }
