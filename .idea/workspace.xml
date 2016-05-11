@@ -69,8 +69,8 @@
       <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+            <state relative-caret-position="600">
+              <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -309,7 +309,7 @@
       <workItem from="1462498802398" duration="5202000" />
       <workItem from="1462760441371" duration="5676000" />
       <workItem from="1462845400717" duration="12081000" />
-      <workItem from="1462927948903" duration="625000" />
+      <workItem from="1462927948903" duration="801000" />
     </task>
     <task id="LOCAL-00001" summary="活动派静态页">
       <created>1461753784740</created>
@@ -542,11 +542,18 @@
       <option name="project" value="LOCAL" />
       <updated>1462928363305</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="scrollStart &amp; scrollEnd">
+      <created>1462928600896</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1462928600896</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108137000" />
+    <option name="totallyTimeSpent" value="108313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1084" extended-state="6" />
@@ -584,7 +591,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="通过浏览器启动App" />
     <MESSAGE value="替换 placeholder 来源" />
     <MESSAGE value="Debug" />
     <MESSAGE value="更换占位图来源" />
@@ -609,7 +615,8 @@
     <MESSAGE value="测试自定义事件4" />
     <MESSAGE value="测试" />
     <MESSAGE value="继续测试iscroll.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="继续测试iscroll.js" />
+    <MESSAGE value="scrollStart &amp; scrollEnd" />
+    <option name="LAST_COMMIT_MESSAGE" value="scrollStart &amp; scrollEnd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -889,8 +896,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        <state relative-caret-position="600">
+          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
           <folding />
         </state>
       </provider>
