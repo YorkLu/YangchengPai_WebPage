@@ -40,7 +40,7 @@
 
             myScroll.on('zoomEnd',function () {
                 if(myScroll.scale>1.04){
-                    var topValue = -$("#scroller").height*(myScroll.scale-1)/2+"px";
+                    var topValue = -$("#scroller").height()*(myScroll.scale-1)/2+"px";
                     alert(topValue);
                     $("#scroller").animate({top:topValue},'fast');
                 }
