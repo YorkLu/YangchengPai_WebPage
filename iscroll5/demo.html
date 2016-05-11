@@ -29,7 +29,25 @@
                 mouseWheel: true,
                 snap: true,
                 momentum: false,
+                zoom: true,
+                wheelAction: 'zoom'
             });
+
+            myScroll.on('zoomStart', function () {
+                myScroll.snap = false;
+                myScroll.scrollY = true;
+            });
+
+            myScroll.on('zoomEnd',function () {
+                if(myScroll.scale>1.04){
+
+                }
+                else{
+                    myScroll.zoom(1,50);
+                    myScroll.snap = true;
+                    myScroll.scrollY = false;
+                }
+            })
 
 
         }
