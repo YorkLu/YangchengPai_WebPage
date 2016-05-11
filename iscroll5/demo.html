@@ -34,20 +34,19 @@
             });
 
             myScroll.on('zoomStart', function () {
-                myScroll.snap = false;
-                myScroll.scrollY = true;
+                myScroll.options.snap = false;
+                myScroll.options.scrollY = true;
             });
 
             myScroll.on('zoomEnd',function () {
                 if(myScroll.scale>1.04){
                     var topValue = -$("#scroller").height()*(myScroll.scale-1)/2+"px";
-                    alert(topValue);
-                    $("#scroller").animate({top:topValue},'fast');
+                    $("#scroller").css('top',topValue);
                 }
                 else{
                     myScroll.zoom(1,50);
-                    myScroll.snap = true;
-                    myScroll.scrollY = false;
+                    myScroll.options.snap = true;
+                    myScroll.options.scrollY = false;
                     $("#scroller").css('top','0');
                 }
             })

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="002d7eed-2fbd-4789-981b-d20602baed23" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iscroll5/iscroll-zoom.js" afterPath="$PROJECT_DIR$/iscroll5/iscroll-zoom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iscroll5/demo.html" afterPath="$PROJECT_DIR$/iscroll5/demo.html" />
     </list>
     <ignored path="YangchengPai_WebPage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,20 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            <state relative-caret-position="240">
+              <caret line="42" column="86" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iscroll-zoom.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="iscroll-zoom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iscroll5/iscroll-zoom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
+            <state relative-caret-position="2270">
               <caret line="1134" column="17" selection-start-line="1134" selection-start-column="17" selection-end-line="1134" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -128,8 +128,8 @@
         <option value="$PROJECT_DIR$/javascripts/main.js" />
         <option value="$PROJECT_DIR$/javascripts/myGenerator.js" />
         <option value="$PROJECT_DIR$/iscroll5/iscroll.js" />
-        <option value="$PROJECT_DIR$/iscroll5/demo.html" />
         <option value="$PROJECT_DIR$/iscroll5/iscroll-zoom.js" />
+        <option value="$PROJECT_DIR$/iscroll5/demo.html" />
       </list>
     </option>
   </component>
@@ -321,7 +321,7 @@
       <workItem from="1462498802398" duration="5202000" />
       <workItem from="1462760441371" duration="5676000" />
       <workItem from="1462845400717" duration="12081000" />
-      <workItem from="1462927948903" duration="2185000" />
+      <workItem from="1462927948903" duration="2540000" />
     </task>
     <task id="LOCAL-00001" summary="活动派静态页">
       <created>1461753784740</created>
@@ -582,11 +582,18 @@
       <option name="project" value="LOCAL" />
       <updated>1462929625481</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="改源码">
+      <created>1462930172140</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1462930172140</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109697000" />
+    <option name="totallyTimeSpent" value="110052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1084" extended-state="6" />
@@ -624,7 +631,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完善打开App流程" />
     <MESSAGE value="针对iOS修改文字" />
     <MESSAGE value="1. 懒加载&#10;2. 盘古之白" />
     <MESSAGE value="样式优化" />
@@ -649,7 +655,8 @@
     <MESSAGE value="区分输出" />
     <MESSAGE value="调整位置" />
     <MESSAGE value="height() is not height!" />
-    <option name="LAST_COMMIT_MESSAGE" value="height() is not height!" />
+    <MESSAGE value="改源码" />
+    <option name="LAST_COMMIT_MESSAGE" value="改源码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -924,21 +931,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iscroll5/iscroll-zoom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
+        <state relative-caret-position="2270">
           <caret line="1134" column="17" selection-start-line="1134" selection-start-column="17" selection-end-line="1134" selection-end-column="17" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="42" column="86" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
+          <folding />
         </state>
       </provider>
     </entry>
