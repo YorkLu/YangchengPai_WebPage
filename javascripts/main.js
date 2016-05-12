@@ -15,7 +15,7 @@ $(document).ready(
         contentGenerator();
 
         // "盘古之白"(全角半角字符之间加空格)
-        pangu.spacingElementByTagName('p');
+        pangu.spacingElementByClassName('mainText');
 
         // 懒加载
         $('.mainText img').lazyload({
@@ -23,7 +23,9 @@ $(document).ready(
         });
 
         // 灯箱效果(模态对话框样式查看图片)
-        setSwipeBox();
+        $( '.swipebox' ).swipebox({
+            hideBarsDelay: 6000
+        });
 
         // 绑定事件
         $(".openApp").bind('top click', openApp);
@@ -43,9 +45,6 @@ $(document).ready(
                 }
             }
         }
-
-        // 视差滚动
-        parallaxScrolling();
     }
 );
 
@@ -108,105 +107,4 @@ function getUrlParam(name) {
     var r = window.location.search.substr(1).match(reg);  //匹配目标参数
     if (r != null) return decodeURI(r[2]);
     return null; //返回参数值
-}
-
-// 初始化灯箱效果
-var imgCtn = 0;
-function setSwipeBox() {
-
-    // 遍历原有图片,新建元素
-    $(".mainText img").each(function () {
-        // Swipe box
-        var swipeBox = $('<div></div>');
-        swipeBox.addClass("swipeBox");
-
-        // Image
-        var imgCopy = $('<img src=""/>');
-        imgCopy.addClass("slide");
-        var imgSrc = $(this).attr("data-original");
-
-        // 设置宽度占满屏
-        imgCopy.attr({"src": imgSrc, "width": $(document.body).width()});
-        swipeBox.append(imgCopy);
-        $(".swipeBoxWarpper").append(swipeBox);
-
-        // 设置序号
-        $(this).attr("imgNo", imgCtn);
-
-        // 原有图片绑定点击/单击事件
-        $(this).bind("click tap", function () {
-            $(".swipeBoxWarpper").css("display", "table");
-            $(".swipeBoxWarpper").css({"display": "table", "opacity": 0});
-            $(".backdrop-dark").fadeIn('fast');
-            $(".swipeBoxWarpper").fadeTo("slow", 1);
-            swipeBoxAt = -1 * $(this).attr("imgNo");
-            $(".swipeBoxWarpper").css("webkitTransform", "translate3d(" + $(".swipeBox").width() * swipeBoxAt + "px,0,0)");
-        })
-        imgCtn++;
-    })
-
-    // 灯箱全宽=图片数量*100%
-    $(".swipeBoxWarpper").css("width", imgCtn + '00%');
-
-    // 单击隐藏
-    touch.on('.swipeBoxWarpper', 'hold tap doubletap', function (ev) {
-        if (ev.type == 'tap') {
-            $(".swipeBoxWarpper").fadeOut('fast', function () {
-                $(".backdrop-dark").fadeOut('fast');
-                $(".swipeBoxWarpper").css({"display": "none"});
-                $(".swipeBoxWarpper").css("webkitTransition", 'all ease 0s');
-            });
-        }
-    });
-
-    // 单击图片
-    touch.on('.slide', 'hold tap doubletap', function (ev) {
-        if (ev.type == 'tap') {
-            $(".swipeBoxWarpper").fadeOut('fast', function () {
-                $(".backdrop-dark").fadeOut('fast');
-                $(".swipeBoxWarpper").css({"display": "none"});
-                $(".swipeBoxWarpper").css("webkitTransition", 'all ease 0s');
-            });
-        }
-        else if (ev.type == 'doubletap') {
-            // var w = $(this).addClass("slide-bigger");
-        }
-        return false;
-    });
-
-    // 左右滑
-    var swipeBoxAt = 0;
-    touch.on('.swipeBoxWarpper', 'touchstart', function (ev) {
-        ev.preventDefault();
-    });
-
-    touch.on('.swipeBoxWarpper', 'swiperight', function (ev) {
-        if (swipeBoxAt < 0) {
-            swipeBoxAt++;
-            $(".swipeBoxWarpper").css("webkitTransition", 'all ease 0.2s');
-            $(".swipeBoxWarpper").css("webkitTransform", "translate3d(" + $(".swipeBox").width() * swipeBoxAt + "px,0,0)");
-        }
-    });
-
-    touch.on('.swipeBoxWarpper', 'swipeleft', function (ev) {
-        if (swipeBoxAt > (-1 * imgCtn) + 1) {
-            swipeBoxAt--;
-            $(".swipeBoxWarpper").css("webkitTransition", 'all ease 0.2s');
-            $(".swipeBoxWarpper").css("webkitTransform", "translate3d(" + $(".swipeBox").width() * swipeBoxAt + "px,0,0)");
-        }
-    });
-}
-
-// 视差效果
-function parallaxScrolling() {
-    var titleImgHeight = $(".titleImg").height();
-    $(window).bind("scroll",function () {
-        // 如果要做顶图视差效果,去掉下面几句的注释
-        /*
-        var diff = $("body").scrollTop()-$(".titleImg").offset().top;
-        if(diff>0&&diff<titleImgHeight){
-            $(".titleImg").css("background-size",(100+20*diff/titleImgHeight)+'%');
-        }
-        */
-    });
 }

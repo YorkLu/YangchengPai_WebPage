@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="002d7eed-2fbd-4789-981b-d20602baed23" name="Default" comment="">
+    <list default="true" id="002d7eed-2fbd-4789-981b-d20602baed23" name="Default" comment="测试2">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/grey_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activity.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/jquery.swipebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/myURL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/swipebox.min.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iscroll5/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iscroll5/iscroll-zoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/touch-0.2.14.min.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="$PROJECT_DIR$/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iscroll5/demo.html" afterPath="$PROJECT_DIR$/iscroll5/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/main.js" afterPath="$PROJECT_DIR$/javascripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/myGenerator.js" afterPath="$PROJECT_DIR$/javascripts/myGenerator.js" />
     </list>
     <ignored path="YangchengPai_WebPage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,34 +37,22 @@
     <favorites_list name="YangchengPai_WebPage" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+    <leaf>
+      <file leaf-file-name="activity.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activity.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+            <state relative-caret-position="702">
+              <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascripts/main.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3675">
-              <caret line="245" column="27" selection-start-line="244" selection-start-column="4" selection-end-line="245" selection-end-column="27" />
+            <state relative-caret-position="2790">
+              <caret line="186" column="12" selection-start-line="186" selection-start-column="12" selection-end-line="186" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -59,28 +61,48 @@
       <file leaf-file-name="myGenerator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascripts/myGenerator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="55" />
+            <state relative-caret-position="690">
+              <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.swipebox.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascripts/jquery.swipebox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1614">
+              <caret line="940" column="51" selection-start-line="940" selection-start-column="51" selection-end-line="940" selection-end-column="51" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1463048035000" expanded="true" signature="1609:2007" placeholder="..." />
+                <marker date="1463048035000" expanded="true" signature="1645:1996" placeholder="..." />
+                <marker date="1463048035000" expanded="true" signature="1720:1774" placeholder="..." />
+                <marker date="1463048035000" expanded="true" signature="1812:1948" placeholder="..." />
+                <marker date="1463048035000" expanded="true" signature="1847:1934" placeholder="..." />
+                <marker date="1463048035000" expanded="true" signature="20996:21045" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="188" column="7" selection-start-line="188" selection-start-column="7" selection-end-line="188" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iscroll-zoom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iscroll5/iscroll-zoom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2270">
-              <caret line="1134" column="17" selection-start-line="1134" selection-start-column="17" selection-end-line="1134" selection-end-column="17" />
+            <state relative-caret-position="1215">
+              <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -122,14 +144,19 @@
         <option value="$PROJECT_DIR$/javascripts/touch-0.2.14.min.js" />
         <option value="$PROJECT_DIR$/javascripts/jquery.swipebox.min.js" />
         <option value="$PROJECT_DIR$/javascripts/jquery.min.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/stylesheets/stylesheet.css" />
-        <option value="$PROJECT_DIR$/javascripts/jquery.swipebox.js" />
-        <option value="$PROJECT_DIR$/javascripts/main.js" />
-        <option value="$PROJECT_DIR$/javascripts/myGenerator.js" />
         <option value="$PROJECT_DIR$/iscroll5/iscroll.js" />
         <option value="$PROJECT_DIR$/iscroll5/iscroll-zoom.js" />
         <option value="$PROJECT_DIR$/iscroll5/demo.html" />
+        <option value="$PROJECT_DIR$/javascripts/moretext-1.2.js" />
+        <option value="$PROJECT_DIR$/stylesheets/index.html" />
+        <option value="$PROJECT_DIR$/javascripts/myURL.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/stylesheets/stylesheet.css" />
+        <option value="$PROJECT_DIR$/stylesheets/activity.css" />
+        <option value="$PROJECT_DIR$/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/javascripts/myGenerator.js" />
+        <option value="$PROJECT_DIR$/javascripts/jquery.swipebox.js" />
+        <option value="$PROJECT_DIR$/activity.html" />
       </list>
     </option>
   </component>
@@ -139,9 +166,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="2048" />
-    <option name="height" value="1084" />
+    <option name="x" value="161" />
+    <option name="y" value="96" />
+    <option name="width" value="1840" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -212,7 +240,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="iscroll5" />
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YangchengPai_WebPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YangchengPai_WebPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -227,18 +269,19 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kitmb1/Documents/03 web/github/YangchengPai_WebPage/javascripts/myGenerator.js" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/swipebox" />
-      <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/stylesheets" />
       <recent name="$PROJECT_DIR$/javascripts" />
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/fonts" />
     </key>
   </component>
@@ -321,7 +364,9 @@
       <workItem from="1462498802398" duration="5202000" />
       <workItem from="1462760441371" duration="5676000" />
       <workItem from="1462845400717" duration="12081000" />
-      <workItem from="1462927948903" duration="3393000" />
+      <workItem from="1462927948903" duration="3880000" />
+      <workItem from="1462956796477" duration="3308000" />
+      <workItem from="1463018633736" duration="17878000" />
     </task>
     <task id="LOCAL-00001" summary="活动派静态页">
       <created>1461753784740</created>
@@ -603,20 +648,26 @@
       <option name="project" value="LOCAL" />
       <updated>1462930899013</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="测试2">
+      <created>1462931373407</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1462931373407</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110905000" />
+    <option name="totallyTimeSpent" value="132578000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2048" height="1084" extended-state="6" />
+    <frame x="161" y="96" width="1840" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14111328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19891304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906404" sideWeight="0.501922" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -625,6 +676,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -645,7 +697,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="样式优化" />
     <MESSAGE value="替换文件" />
     <MESSAGE value="灯箱效果" />
     <MESSAGE value="替换 touch.js 来源" />
@@ -670,7 +721,8 @@
     <MESSAGE value="改源码" />
     <MESSAGE value="调整" />
     <MESSAGE value="测试1" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试1" />
+    <MESSAGE value="测试2" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -679,22 +731,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javascripts/myGenerator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3240">
           <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="23" />
@@ -724,13 +761,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2115">
           <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/activity.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="22" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="22" />
@@ -738,7 +772,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3435">
           <caret line="229" column="27" selection-start-line="229" selection-start-column="27" selection-end-line="229" selection-end-column="27" />
@@ -763,7 +797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/activity.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="54" column="50" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="50" />
@@ -771,7 +805,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3210">
           <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
@@ -789,7 +823,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/activity.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -804,7 +838,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/activity.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
@@ -829,7 +863,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/activity.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="49" />
@@ -861,7 +895,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascripts/touch.min.js" />
     <entry file="file://$PROJECT_DIR$/javascripts/mySwipeBox.js" />
-    <entry file="file://$PROJECT_DIR$/stylesheets/swipebox.min.css" />
     <entry file="file://$PROJECT_DIR$/javascripts/jquery.swipebox.min.js" />
     <entry file="file://$PROJECT_DIR$/images/grey_1px.png">
       <provider selected="true" editor-type-id="images">
@@ -885,11 +918,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="1" column="12984" selection-start-line="1" selection-start-column="12984" selection-end-line="1" selection-end-column="12984" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/jquery.swipebox.js" />
     <entry file="file://$PROJECT_DIR$/swipebox/lib/jquery-2.1.0.min.js" />
     <entry file="file://$PROJECT_DIR$/javascripts/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -900,65 +931,88 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swipebox/demo.html" />
+    <entry file="file://$PROJECT_DIR$/swipebox/src/js/jquery.swipebox.js" />
+    <entry file="file://$PROJECT_DIR$/iscroll5/iscroll-zoom.js" />
+    <entry file="file://$PROJECT_DIR$/iscroll5/demo.html" />
     <entry file="file://$PROJECT_DIR$/javascripts/moretext-1.2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/myURL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/swipebox.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="186" column="12" selection-start-line="186" selection-start-column="12" selection-end-line="186" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/jquery.swipebox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1614">
+          <caret line="940" column="51" selection-start-line="940" selection-start-column="51" selection-end-line="940" selection-end-column="51" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1463048035000" expanded="true" signature="1609:2007" placeholder="..." />
+            <marker date="1463048035000" expanded="true" signature="1645:1996" placeholder="..." />
+            <marker date="1463048035000" expanded="true" signature="1720:1774" placeholder="..." />
+            <marker date="1463048035000" expanded="true" signature="1812:1948" placeholder="..." />
+            <marker date="1463048035000" expanded="true" signature="1847:1934" placeholder="..." />
+            <marker date="1463048035000" expanded="true" signature="20996:21045" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swipebox/src/js/jquery.swipebox.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/javascripts/myGenerator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+        <state relative-caret-position="690">
+          <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+        <state relative-caret-position="1215">
+          <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3675">
-          <caret line="245" column="27" selection-start-line="244" selection-start-column="4" selection-end-line="245" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/myGenerator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iscroll5/iscroll-zoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2270">
-          <caret line="1134" column="17" selection-start-line="1134" selection-start-column="17" selection-end-line="1134" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iscroll5/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="729">
+          <caret line="188" column="7" selection-start-line="188" selection-start-column="7" selection-end-line="188" selection-end-column="7" />
           <folding />
         </state>
       </provider>

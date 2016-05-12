@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,70 +7,186 @@
     <META HTTP-EQUIV="pragma" CONTENT="no-cache">
     <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
     <META HTTP-EQUIV="expires" CONTENT="0">
-    <!--Main css-->
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <!--全角半角字符之间加空格-->
-    <script src="javascripts/pangu.min.js"></script>
+    <title>羊城派 - 分享页</title>
+    <!--Plugins-->
+    <link href="//cdn.bootcss.com/Buttons/2.0.0/css/buttons.min.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        html,body {
+            margin: 0 auto;
+            font-family: "proxima-nova", Helvetica, Verdana, Arial, "Lucida Grande", sans-serif;
+            height: 100%;
+        }
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        html{
+            background: #f6f6f6;
+        }
 
-    <title>羊城派 - 活动详情</title>
+        body{
+            background: white;
+        }
+
+        .hero {
+            position: relative;
+            padding: 60px 40px 30px;
+            background: #222222;
+            text-align: center;
+            color: #FFF;
+            width: 100%;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            height: auto;
+            box-shadow: 0 0px 4px rgba(0, 0, 0, .12), 0 4px 4px rgba(0, 0, 0, .24);
+        }
+
+        .title {
+            display: inline-block;
+            position: relative;
+            margin: 0px auto 10px auto;
+            font-family: "proxima-nova", Helvetica, Verdana, Arial, "Lucida Grande", sans-serif;
+            font-size: 48px;
+            font-weight: 100;
+            text-transform: uppercase;
+            text-shadow: 0 0px 4px rgba(0, 0, 0, .12), 0 4px 4px rgba(0, 0, 0, .24);;
+        }
+
+        .title > sup {
+            position: absolute;
+            top: -5px;
+            right: 0px;
+            z-index: 1;
+            font-size: 12px;
+            color: #26A3EC;
+        }
+
+        .main-content {
+            padding: 20px 20px;
+        }
+
+        .main-content a + a {
+            margin-top: 20px;
+        }
+
+        .main-content > .button-dropdown {
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .main-content > .button-dropdown > button{
+            width: 100%;
+        }
+
+        .bottom-bar{
+            position: absolute;
+            bottom: 0;
+            margin: 0;
+            height: 28px;
+            width: 100%;
+            background: #222222;
+            text-align: center;
+        }
+
+        .bottom-bar .copyright{
+            margin: 0 auto;
+            padding: 0;
+            color: white;
+            line-height: 28px;
+            font-size: 12px;
+        }
+
+        @media (min-width: 751px) {
+            html, body {
+                max-width: 750px;
+                font-size: 30px;
+                margin: 0 auto;
+            }
+            .main-content{
+                padding: 30px 20%;
+            }
+            .main-content a + a {
+                margin-top: 28px;
+            }
+
+            .main-content > .button-dropdown {
+                margin-top: 28px;
+            }
+            .bottom-bar{
+                width: 750px;
+            }
+        }
+    </style>
 </head>
-
 <body>
-<a href="javascript:void(null)" class="openApp">
-    <div class="header">
-        <img src="images/header.png">
+<header id="hero" class="hero hero-buttons">
+    <div class="l-over">
+        <h1 class="title">YOUNG PAI<sup>V2.0</sup></h1>
+        <p class="hero-pitch">
+            <strong>Young Pai</strong> 羊城派, 为你而动.
+        </p>
     </div>
-</a>
-<div class="titleImg">
-    <div class="titleArea">
-        <p class="titleText">毕业旅行 | 世界这么大,你该去看看,这是好鬼长要两行才放得下的标题</p>
-    </div>
+</header>
+<div class="main-content">
+    <a href="javascript:void(null)" jumpto="activity.html" class="button button-3d button-caution button-block"><i class="fa fa-globe"></i> 新闻详情</a>
+    <a href="javascript:void(null)" jumpto="activity.html" class="button button-3d button-highlight button-block"><i class="fa fa-flag"></i> 求助详情</a>
+    <a href="javascript:void(null)" jumpto="activity.html" class="button button-3d button-primary button-block"><i class="fa fa-bookmark"></i> 跟进详情</a>
+    <a href="javascript:void(null)" jumpto="activity.html" class="button button-3d button-action button-block"><i class="fa fa-map-marker"></i> 活动详情</a>
+    <span class="button-dropdown" data-buttons="dropdown">
+        <button class="button">
+            <span id="zoom-op-text">Pinch-zoom Options </span>
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <ul class="button-dropdown-list">
+            <li id="zoom-op2"><a href="javascript:void(null)">No Pinch-zoom</a></li>
+            <li id="zoom-op1"><a href="javascript:void(null)">Pinch-zoom</a></li>
+        </ul>
+    </span>
 </div>
-<div class="activityInfo">
-    <p><span><i class="material-icons md-18 md-dark">watch_later</i></span>07月01日报名截止</p>
-    <hr>
-    <p><span><i class="material-icons md-18 md-dark">today</i></span>2016.07.02-2099.12.31</p>
-    <hr>
-    <p><span><i class="material-icons md-18 md-dark">account_balance_wallet</i></span>$99.00</p>
-    <hr>
-    <p><span><i class="material-icons md-18 md-dark">place</i></span>太阳系-地球</p>
-    <hr>
-    <p><span><i class="material-icons md-18 md-dark">beenhere</i></span>kit-羊城派</p>
+<div class="bottom-bar">
+    <p class="copyright">Latest commit 12/05/2016</p>
 </div>
-<div class="mainText">
-    <div class="footer openApp">
-        <a href="javascript:void(null)" target="_blank">打开羊城派，查看更多精彩内容</a>
-    </div>
-</div>
-<div class="backdrop backdrop-light"></div>
-<div class="backdrop backdrop-dark"></div>
-<div class="help-modal weixin-browser-help">
-    <div>
-        <p class="text-blue">请点击右上角的「 ••• 」按钮</p>
-        <p class="browser-guide">选择「在浏览器中打开」后再次尝试~</p>
-    </div>
-</div>
-<!--Swipe Box-->
-<div class="swipeBoxWarpper">
-</div>
+<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/Buttons/2.0.0/js/buttons.min.js"></script>
+<script src="javascripts/myURL.js"></script>
+<script>
+    var myurl = new objURL();
+    $(document).ready(function () {
+        myurl.remove("zoom");
+        myurl.set("zoom","0");
+        window.history.pushState({},0,myurl.url());
+
+        $("#zoom-op1").bind("click tap",function () {
+            myurl.set("zoom",'1');
+            $("#zoom-op-text").text("Pinch-zoom ");
+            window.history.pushState({},0,myurl.url());
+        });
+
+        $("#zoom-op2").bind("click tap",function () {
+            myurl.set("zoom",'0');
+            $("#zoom-op-text").text("No Pinch-zoom ");
+            window.history.pushState({},0,myurl.url());
+        });
+
+        $(".main-content>a").bind("click tap",function () {
+            var url = $(this).attr("jumpto")+'?zoom='+myurl.get("zoom");
+            location.href = url;
+        })
+    });
+    $(function(){
+        setInterval(function(){
+            var timestamp=$("body").data("page_timestamp");
+            if(typeof(timestamp)=='undefined'||timestamp==null){
+                $("body").data("page_timestamp",new Date().getTime());
+            }else{
+                var currDate=new Date().getTime();
+                if(currDate-timestamp>2000){
+                    window.location.reload();
+                }else{
+                    $("body").data("page_timestamp",currDate);
+                }
+            }
+        },1000);
+    });
+</script>
 </body>
-<!--Please use jquery 1.44+-->
-<script src="javascripts/jquery.min.js"></script>
-<!--Touch.js-->
-<script src="javascripts/touch-0.2.14.min.js"></script>
-<!--Lazy load-->
-<script src="javascripts/jquery.lazyload.min.js"></script>
-<!--Content generator-->
-<script src="javascripts/myGenerator.js?v=050401"></script>
-<!--Main js-->
-<script src="javascripts/main.js?v=050401"></script>
-<!--Chinese "lorem ipsum"-->
-<script src="javascripts/moretext-1.2.js?v=050401"></script>
 </html>
