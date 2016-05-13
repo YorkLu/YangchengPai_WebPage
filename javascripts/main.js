@@ -42,10 +42,14 @@ $(document).ready(
         });
 
         // 分享模块
+        var imgForShare = $('<img src=""/>');
+        var imgURL = $(".m-title").css("backgroundImage");
+        imgForShare.attr("src",imgURL.substring(5,imgURL.length-2));
+        imgForShare.css("display","none");
+        $(".js-applink").before(imgForShare);
         var $config = {
             source              : 'http://pai.ycwb.com/', // 来源（QQ空间会用到）, 默认读取head标签：<meta name="site" content="http://overtrue" />
             description         : $(".m-title .title-text").text(), // 描述, 默认读取head标签：<meta name="description" content="PHP弱类型的实现原理分析" />
-            image               : $(".m-title").css("backgroundImage").replace(/url\((.*?)\)/ig,"$1") // 图片, 默认取网页中第一个img标签
         };
 
         $('.social-share').share($config);
