@@ -10,11 +10,11 @@ function contentGenerator() {
     var contentCounter = (Math.random() * (8) + 3.5) | 0;
     var imgCounter = 0;
     for (var i = 0; i < contentCounter; i++) {
-        if (Math.random()>0.4) {
-            if(Math.random()>0.5)
-             $(".footer").before('<p class="lipsum(5,5-25)"></p>');
+        if (Math.random() > 0.4) {
+            if (Math.random() > 0.5)
+                $(".m-content").append('<p class="lipsum(5,5-25)"></p>');
             else
-                $(".footer").before('<p class="lipsum(3,15-70)"></p>');
+                $(".m-content").append('<p class="lipsum(3,15-70)"></p>');
         }
         else {
             var seed = Math.random();
@@ -22,7 +22,7 @@ function contentGenerator() {
             imgCounter++;
         }
     }
-    if(imgCounter==0){
+    if (imgCounter == 0) {
         var seed = Math.random();
         tempIm(seed, i);
         imgCounter++;
@@ -41,58 +41,65 @@ function contentGenerator() {
  * </a>
  * */
 
+// http://temp.im
+function tempIm(seed, i) {
+    // 动态生成的标签
+    var aTag = $('<a href="" class="swipebox"></a>');
+    var imgTag = $('<img src="images/pic_grey_logo.png" alt="image"/>');
+    var imgURL = '';
+
+    // 根据随机数设置图片src
+    if (seed > 0.66) {
+        imgURL = "http://temp.im/400x400/26A3EC/fff";
+    }
+    else if (seed > 0.33) {
+        imgURL = "http://temp.im/400x300/8BC34A/fff";
+    }
+    else {
+        imgURL = "http://temp.im/400x225/FFD450/fff";
+    }
+
+    // 设置标签属性
+    aTag.attr("href", imgURL);
+    aTag.attr("title", "");
+    imgTag.attr("data-original", imgURL);
+    aTag.append(imgTag);
+
+    // 插入
+    $(".m-content").append(aTag);
+}
+
 // 图片质量最好但是要翻墙
 // Places and things courtesy of Unsplash | https://placem.at/
 function placemat(seed, i) {
     var aTag = $('<a href="" class="swipebox"></a>');
-    var imgTag = $('<img src="images/grey_logo.png" alt="image"/>');
+    var imgTag = $('<img src="images/pic_grey_logo.png" alt="image"/>');
     var imgURL = '';
     if (seed > 0.66) {
-        imgURL =  "https://placem.at/things?w=400&txt=0&overlay_color=0000&random=' + i + '";
+        imgURL = "https://placem.at/things?w=400&txt=0&overlay_color=0000&random=' + i + '";
     }
     else if (seed > 0.33) {
-        imgURL =  "https://placem.at/places?w=400&txt=0&overlay_color=0000&random=' + i + '";
+        imgURL = "https://placem.at/places?w=400&txt=0&overlay_color=0000&random=' + i + '";
     }
     else {
         imgURL = "https://placem.at/people?w=400&txt=0&overlay_color=0000&random=' + i + '";
     }
-    aTag.attr("href",imgURL);
-    aTag.attr("title","");
-    imgTag.attr("data-original",imgURL);
+    aTag.attr("href", imgURL);
+    aTag.attr("title", "");
+    imgTag.attr("data-original", imgURL);
     aTag.append(imgTag);
-    $(".footer").before(aTag);
+    $(".m-content").append(aTag);
 }
 
 // http://lorempixel.com/
 function lorempixel(seed, i) {
     if (seed > 0.66) {
-        $(".footer").before('<img data-original="http://lorempixel.com/animals/400/' + (200 + i + '') + '" src="images/grey_logo.png">');
+        $(".m-footer").before('<img data-original="http://lorempixel.com/animals/400/' + (200 + i + '') + '" src="images/pic_grey_logo.png">');
     }
     else if (seed > 0.33) {
-        $(".footer").before('<img data-original="http://lorempixel.com/city/400/' + (300 + i + '') + '" src="images/grey_logo.png">');
+        $(".m-footer").before('<img data-original="http://lorempixel.com/city/400/' + (300 + i + '') + '" src="images/pic_grey_logo.png">');
     }
     else {
-        $(".footer").before('<img data-original="http://lorempixel.com/nature/400/' + (400 + i + '') + '" src="images/grey_logo.png">');
+        $(".m-footer").before('<img data-original="http://lorempixel.com/nature/400/' + (400 + i + '') + '" src="images/pic_grey_logo.png">');
     }
-}
-
-// http://temp.im
-function tempIm(seed, i) {
-    var aTag = $('<a href="" class="swipebox"></a>');
-    var imgTag = $('<img src="images/grey_logo.png" alt="image"/>');
-    var imgURL = '';
-    if (seed > 0.66) {
-        imgURL =  "http://temp.im/400x400/26A3EC/fff";
-    }
-    else if (seed > 0.33) {
-        imgURL =  "http://temp.im/400x300/8BC34A/fff";
-    }
-    else {
-        imgURL = "http://temp.im/400x225/FFD450/fff";
-    }
-    aTag.attr("href",imgURL);
-    aTag.attr("title","");
-    imgTag.attr("data-original",imgURL);
-    aTag.append(imgTag);
-    $(".footer").before(aTag);
 }

@@ -1,3 +1,7 @@
+/*
+* 增删改查URL参数
+* */
+
 function objURL(url) {
     var ourl = url || window.location.href;
     var href = "";//?前面部分

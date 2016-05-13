@@ -1,5 +1,9 @@
 /* 编码: 陆扬         */
-/* 日期: 2016-04-27  */
+/* 更新: 2016-05-13  */
+/* g-	全局通用样式命名,一旦修改将影响全站样式 */
+/* m-	模块命名方式 */
+/* ui-	组件命名方式 */
+/* js-	所有用于纯交互的命名，不涉及任何样式规则 */
 
 /* 自托管 Google Web Fonts */
 @font-face {
@@ -61,6 +65,8 @@
     color: #ababab;
 }
 
+/* 自托管 Google Web Fonts 结束 */
+
 /* 静态页样式 */
 html, body {
     margin: 0 auto;
@@ -68,7 +74,12 @@ html, body {
     background: #f6f6f6;
 }
 
-.header {
+body{
+    padding-bottom: 44px;
+}
+
+/* 顶部 applink */
+.m-header {
     width: 100%;
     height: auto;
     /*解决图片无法占满高度的问题*/
@@ -76,120 +87,157 @@ html, body {
     margin: 0 auto;
 }
 
-.header img {
+.m-header img {
     width: 100%;
 }
 
-.titleImg {
-    background: url(../images/titleImg.jpg) center center;
+/* 标题和标题图 */
+.m-title {
+    background: url(../images/pic_title.jpg) center center;
     background-size: 100%;
     position: relative;
     margin: 0 auto;
 }
 
-.titleArea {
+.m-title .title-over {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 72pt;
+    height: 72px;
     background-image: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.73));
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.73));
 }
 
-.titleText {
+.m-title .title-text {
     position: absolute;
     bottom: 0;
     margin: 0;
     padding: 8px 16px;
-    font-size: 17px;
     color: white;
     line-height: 120%;
 }
 
-.activityInfo {
+/* 信息列表 */
+.m-infolist {
     background: white;
     padding: 2px 12px;
     margin: 0 auto;
 }
 
-.activityInfo p {
+.m-infolist p {
     margin: 10px 0;
-    color: #444444;
-    font-size: 15px;
 }
 
-.activityInfo p i {
+.m-infolist p i {
     position: relative;
     top: 2px;
     margin-right: 8px;
 }
 
-.activityInfo hr {
+.m-infolist hr {
     border: none;
     border-top: 1px solid #dbdbdb;
     margin: 0;
 }
 
-.mainText {
+/* 正文内容与排版 */
+.m-content {
     background: white;
     padding: 12px 16px;
     margin: 8px auto 0;
 }
 
-.mainText p {
+.m-content p {
     font-size: 16px;
     margin: 0;
     line-height: 20px;
     text-indent: 32px;
 }
 
-.mainText img {
+.m-content img {
     width: 100%;
     height: auto;
 }
 
-.mainText .swipebox{
-    display:block;
+.m-content .swipebox {
+    display: block;
 }
 
-.mainText a + p {
+.m-content a + p {
     margin-top: 8px;
 }
 
-.mainText p + p {
+.m-content p + p {
     margin-top: 8px;
 }
 
-.mainText p + a {
+.m-content p + a {
     margin-top: 8px;
 }
 
-.mainText a + a {
+.m-content a + a {
     margin-top: 8px;
 }
 
-.footer {
-    text-align: center;
-    border: 1px solid #26A3EC;
-    color: #26A3EC;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border-radius: 4px;
-    margin-top: 16px;
+/* 底栏 */
+.m-footer {
+    position: fixed;
+    height: 44px;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, .12), 0 4px 4px rgba(0, 0, 0, .24);;
 }
 
-.footer a {
-    text-decoration: none;
-    color: #26A3EC;
+.m-footer .footer-applink {
+    float: left;
 }
 
+.m-footer .footer-applink-icon {
+    float: left;
+    width: 36px;
+    height: auto;
+    margin: 4px 12px;
+}
+
+.m-footer .footer-applink-text {
+    float: left;
+    line-height: 44px;
+    padding: 0;
+    margin: 0;
+}
+
+.m-footer a {
+    float: right;
+}
+
+.m-footer .icon-qzone{
+    margin-right: 12px;
+}
+
+/* PC端 */
 @media (min-width: 751px) {
-    .header,.titleImg,.mainText,.activityInfo{
+    .m-header, .m-title, .m-footer {
         max-width: 750px;
+    }
+
+    /* 左右 padding 16px */
+    .m-content {
+        max-width: 718px;
+    }
+
+    /* 左右 padding 12px */
+    .m-infolist {
+        max-width: 726px;
+    }
+
+    .m-footer {
+        left: calc(50% - 375px);
     }
 }
 
-.backdrop {
+/* 模态框背景 */
+.m-backdrop {
     position: fixed;
     top: 0;
     right: 0;
@@ -198,22 +246,11 @@ html, body {
     background: #000;
     z-index: 2;
     display: none;
-}
-
-.backdrop-light {
     opacity: .4;
 }
 
-.backdrop-dark {
-    opacity: .85;
-}
-
-.weixin-browser-help {
-    top: 10px;
-    display: none;
-}
-
-.help-modal {
+/* 模态框 */
+.ui-modal {
     position: fixed;
     top: 10px;
     left: 10px;
@@ -225,34 +262,110 @@ html, body {
     z-index: 3;
 }
 
-.weixin-browser-help p {
-    margin: 10px auto 10px;
-    font-size: 16px;
+/* 微信提示 */
+.weixin-applink,.weixin-share {
+    top: 10px;
+    display: none;
 }
 
+.weixin-applink p,.weixin-share p {
+    margin: 10px auto 10px;;
+}
+
+/* 滚动条狗带吧! :) */
 ::-webkit-scrollbar {
     width: 0;
     height: 0;
     background-color: rgba(240, 240, 240, 0)
 }
 
-/* UI 颜色规范 */
-.text-blue {
+/* todo:最好通过改源码来修复这个问题 */
+/* 禁用 share.js 原有微信分享功能 */
+.wechat-qrcode{
+    display: none !important;
+}
+
+/* 静态页样式 结束 */
+
+/* UI颜色规范 文字部分 */
+/* 主题蓝色 */
+.g-text-blue {
     color: #26A3EC;
 }
 
-.text-green {
+/* 绿色 */
+.g-text-green {
     color: #8BC34A;
 }
 
-.text-yellow {
+/* 黄色 */
+.g-text-yellow {
     color: #FFD450;
 }
 
-.text-orange {
+/* 橙色 */
+.g-text-orange {
     color: #FF7A3F;
 }
 
-.text-red {
+/* 红色 */
+.g-text-red {
     color: #FF4E63;
 }
+
+/* 一号黑色 */
+.g-text-black-1 {
+    color: #222222;
+}
+
+/* 二号黑色 */
+.g-text-black-2 {
+    color: #444444;
+}
+
+/* 三号黑色 */
+.g-text-black-3 {
+    color: #686868;
+}
+
+/* 四号黑色 */
+.g-text-black-4 {
+    color: #929292;
+}
+
+/* 新闻标题 */
+.g-text-h1 {
+    font-size: 19px;
+}
+
+/* 图册标题 */
+.g-text-h2 {
+    font-size: 18px;
+}
+
+/* 普通标题 */
+.g-text-h3 {
+    font-size: 17px;
+}
+
+/* 新闻摘要 */
+.g-text-l {
+    font-size: 16px;
+}
+
+/* 普通正文 */
+.g-text-m {
+    font-size: 15px;
+}
+
+/* 标签,脚注1 */
+.g-text-s {
+    font-size: 12px;
+}
+
+/* 脚注2 */
+.g-text-xs {
+    font-size: 11px;
+}
+
+/* UI 颜色规范 文字部分 结束 */

@@ -1,6 +1,6 @@
 /*! Swipebox v1.4.4 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
 /*
-* Note: Some lines have been modified, and I used "//modified" to mark them
+* Note: Some lines have been modified, and I use "//modified" to mark them
 * Date: 2016-05-12
 * */
 

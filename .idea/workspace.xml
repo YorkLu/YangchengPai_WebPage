@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="002d7eed-2fbd-4789-981b-d20602baed23" name="Default" comment="测试2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/grey_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activity.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/jquery.swipebox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/myURL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/swipebox.min.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iscroll5/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iscroll5/iscroll-zoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/touch-0.2.14.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="$PROJECT_DIR$/stylesheets/style.css" />
+    <list default="true" id="002d7eed-2fbd-4789-981b-d20602baed23" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/jquery.share.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/share.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/grey_1px.png" afterPath="$PROJECT_DIR$/images/pic_grey_1px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/grey_logo.png" afterPath="$PROJECT_DIR$/images/pic_grey_logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/header.png" afterPath="$PROJECT_DIR$/images/pic_header.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icons.png" afterPath="$PROJECT_DIR$/images/icon_swipebox.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icons.svg" afterPath="$PROJECT_DIR$/images/icon_swipebox.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/titleImg.jpg" afterPath="$PROJECT_DIR$/images/pic_title.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activity.html" afterPath="$PROJECT_DIR$/activity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/jquery.swipebox.js" afterPath="$PROJECT_DIR$/javascripts/jquery.swipebox.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/main.js" afterPath="$PROJECT_DIR$/javascripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/myGenerator.js" afterPath="$PROJECT_DIR$/javascripts/myGenerator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/myURL.js" afterPath="$PROJECT_DIR$/javascripts/myURL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css" afterPath="$PROJECT_DIR$/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/swipebox.min.css" afterPath="$PROJECT_DIR$/stylesheets/swipebox.min.css" />
     </list>
     <ignored path="YangchengPai_WebPage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,62 +42,22 @@
     <favorites_list name="YangchengPai_WebPage" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="activity.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activity.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
+            <state relative-caret-position="189">
+              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2790">
-              <caret line="186" column="12" selection-start-line="186" selection-start-column="12" selection-end-line="186" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myGenerator.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascripts/myGenerator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.swipebox.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascripts/jquery.swipebox.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1614">
-              <caret line="940" column="51" selection-start-line="940" selection-start-column="51" selection-end-line="940" selection-end-column="51" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1463048035000" expanded="true" signature="1609:2007" placeholder="..." />
-                <marker date="1463048035000" expanded="true" signature="1645:1996" placeholder="..." />
-                <marker date="1463048035000" expanded="true" signature="1720:1774" placeholder="..." />
-                <marker date="1463048035000" expanded="true" signature="1812:1948" placeholder="..." />
-                <marker date="1463048035000" expanded="true" signature="1847:1934" placeholder="..." />
-                <marker date="1463048035000" expanded="true" signature="20996:21045" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="188" column="7" selection-start-line="188" selection-start-column="7" selection-end-line="188" selection-end-column="7" />
+            <state relative-caret-position="239">
+              <caret line="265" column="29" selection-start-line="265" selection-start-column="29" selection-end-line="265" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -101,8 +66,40 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+            <state relative-caret-position="180">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myURL.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascripts/myURL.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="39" column="83" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myGenerator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascripts/myGenerator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -149,14 +146,16 @@
         <option value="$PROJECT_DIR$/iscroll5/demo.html" />
         <option value="$PROJECT_DIR$/javascripts/moretext-1.2.js" />
         <option value="$PROJECT_DIR$/stylesheets/index.html" />
-        <option value="$PROJECT_DIR$/javascripts/myURL.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stylesheets/stylesheet.css" />
         <option value="$PROJECT_DIR$/stylesheets/activity.css" />
-        <option value="$PROJECT_DIR$/javascripts/main.js" />
         <option value="$PROJECT_DIR$/javascripts/myGenerator.js" />
         <option value="$PROJECT_DIR$/javascripts/jquery.swipebox.js" />
+        <option value="$PROJECT_DIR$/javascripts/myURL.js" />
+        <option value="$PROJECT_DIR$/javascripts/jquery.share.min.js" />
         <option value="$PROJECT_DIR$/activity.html" />
+        <option value="$PROJECT_DIR$/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/stylesheets/style.css" />
       </list>
     </option>
   </component>
@@ -166,8 +165,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="161" />
-    <option name="y" value="96" />
+    <option name="x" value="-1" />
+    <option name="y" value="40" />
     <option name="width" value="1840" />
     <option name="height" value="970" />
   </component>
@@ -258,6 +257,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YangchengPai_WebPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YangchengPai_WebPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -272,17 +285,17 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kitmb1/Documents/03 web/github/YangchengPai_WebPage/javascripts/myGenerator.js" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/fonts" />
+      <recent name="$PROJECT_DIR$/stylesheets" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/javascripts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/swipebox" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/stylesheets" />
-      <recent name="$PROJECT_DIR$/javascripts" />
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -366,7 +379,8 @@
       <workItem from="1462845400717" duration="12081000" />
       <workItem from="1462927948903" duration="3880000" />
       <workItem from="1462956796477" duration="3308000" />
-      <workItem from="1463018633736" duration="17878000" />
+      <workItem from="1463018633736" duration="18923000" />
+      <workItem from="1463106388819" duration="16650000" />
     </task>
     <task id="LOCAL-00001" summary="活动派静态页">
       <created>1461753784740</created>
@@ -655,20 +669,28 @@
       <option name="project" value="LOCAL" />
       <updated>1462931373407</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="放弃iscroll.js,目前使用swipebox.js">
+      <created>1463048671504</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1463048671504</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132578000" />
+    <option name="totallyTimeSpent" value="150273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="161" y="96" width="1840" height="970" extended-state="0" />
+    <frame x="-1" y="40" width="1840" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19891304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16195652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906404" sideWeight="0.501922" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32741398" sideWeight="0.498078" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -681,7 +703,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280788" sideWeight="0.498078" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -697,7 +718,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="替换文件" />
     <MESSAGE value="灯箱效果" />
     <MESSAGE value="替换 touch.js 来源" />
     <MESSAGE value="替换 jquery.min.js 来源" />
@@ -722,7 +742,8 @@
     <MESSAGE value="调整" />
     <MESSAGE value="测试1" />
     <MESSAGE value="测试2" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试2" />
+    <MESSAGE value="放弃iscroll.js,目前使用swipebox.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="放弃iscroll.js,目前使用swipebox.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -731,39 +752,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3240">
-          <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/myGenerator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="111" column="53" selection-start-line="111" selection-start-column="53" selection-end-line="111" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/touch.min.js" />
-    <entry file="file://$PROJECT_DIR$/javascripts/moretext-1.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2115">
-          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activity.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -896,12 +884,7 @@
     <entry file="file://$PROJECT_DIR$/javascripts/touch.min.js" />
     <entry file="file://$PROJECT_DIR$/javascripts/mySwipeBox.js" />
     <entry file="file://$PROJECT_DIR$/javascripts/jquery.swipebox.min.js" />
-    <entry file="file://$PROJECT_DIR$/images/grey_1px.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/header.png">
+    <entry file="file://$PROJECT_DIR$/images/pic_grey_1px.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -914,13 +897,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/touch-0.2.14.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="1" column="12984" selection-start-line="1" selection-start-column="12984" selection-end-line="1" selection-end-column="12984" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/touch-0.2.14.min.js" />
     <entry file="file://$PROJECT_DIR$/swipebox/lib/jquery-2.1.0.min.js" />
     <entry file="file://$PROJECT_DIR$/javascripts/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -941,14 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/myURL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/swipebox.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -957,34 +926,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
+    <entry file="file://$PROJECT_DIR$/javascripts/jquery.swipebox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="186" column="12" selection-start-line="186" selection-start-column="12" selection-end-line="186" selection-end-column="12" />
+        <state relative-caret-position="30">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1463122909000" expanded="true" signature="1608:2006" placeholder="..." />
+            <marker date="1463122909000" expanded="true" signature="1644:1995" placeholder="..." />
+            <marker date="1463122909000" expanded="true" signature="1719:1773" placeholder="..." />
+            <marker date="1463122909000" expanded="true" signature="1811:1947" placeholder="..." />
+            <marker date="1463122909000" expanded="true" signature="1846:1933" placeholder="..." />
+            <marker date="1463122909000" expanded="true" signature="20995:21044" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon_swipebox.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/jquery.swipebox.js">
+    <entry file="file://$PROJECT_DIR$/images/icon_swipebox.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/loader.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/pic_header.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/share.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1614">
-          <caret line="940" column="51" selection-start-line="940" selection-start-column="51" selection-end-line="940" selection-end-column="51" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1463048035000" expanded="true" signature="1609:2007" placeholder="..." />
-            <marker date="1463048035000" expanded="true" signature="1645:1996" placeholder="..." />
-            <marker date="1463048035000" expanded="true" signature="1720:1774" placeholder="..." />
-            <marker date="1463048035000" expanded="true" signature="1812:1948" placeholder="..." />
-            <marker date="1463048035000" expanded="true" signature="1847:1934" placeholder="..." />
-            <marker date="1463048035000" expanded="true" signature="20996:21045" placeholder="..." />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascripts/myGenerator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/myURL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="39" column="83" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/jquery.share.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -993,26 +1019,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/activity.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
+        <state relative-caret-position="189">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/main.js">
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="188" column="7" selection-start-line="188" selection-start-column="7" selection-end-line="188" selection-end-column="7" />
+        <state relative-caret-position="239">
+          <caret line="265" column="29" selection-start-line="265" selection-start-column="29" selection-end-line="265" selection-end-column="29" />
           <folding />
         </state>
       </provider>

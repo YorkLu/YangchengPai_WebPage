@@ -1,12 +1,12 @@
 /*
  * 编码: 陆扬
- * 日期: 2016-04-27
+ * 更新: 2016-05-13
  * */
 
 $(document).ready(
     function () {
         // 设置标题图长宽比为16:9
-        $(".titleImg").height((0.5 + $(".titleImg").width() / 16 * 9) | 0);
+        $(".m-title").height((0.5 + $(".m-title").width() / 16 * 9) | 0);
 
         /*
          * TODO:仅测试时使用,发布前请注释掉
@@ -18,7 +18,7 @@ $(document).ready(
         pangu.spacingElementByClassName('mainText');
 
         // 懒加载
-        $('.mainText img').lazyload({
+        $('.m-content img').lazyload({
             effect: 'fadeIn'
         });
 
@@ -27,19 +27,35 @@ $(document).ready(
             hideBarsDelay: 6000
         });
 
-        // 绑定事件
-        $(".openApp").bind('top click', openApp);
-        $(".backdrop-light").bind('top click', function () {
-            $(".weixin-browser-help").hide();
+        // 在微信中打开applink
+        $(".js-applink").bind('top click', openApp);
+        $(".m-backdrop").bind('top click', function () {
+            $(".weixin-applink").hide();
+            $(".weixin-share").hide();
             $(this).hide();
         })
+
+        // 选择底栏微信分享
+        $(".icon-wechat").bind('top click', function () {
+            $(".m-backdrop").show();
+            $(".weixin-share").show();
+        });
+
+        // 分享模块
+        var $config = {
+            source              : 'http://pai.ycwb.com/', // 来源（QQ空间会用到）, 默认读取head标签：<meta name="site" content="http://overtrue" />
+            description         : $(".m-title .title-text").text(), // 描述, 默认读取head标签：<meta name="description" content="PHP弱类型的实现原理分析" />
+            image               : $(".m-title").css("backgroundImage").replace(/url\((.*?)\)/ig,"$1") // 图片, 默认取网页中第一个img标签
+        };
+
+        $('.social-share').share($config);
 
         // 根据终端修改文字内容
         if (/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))) {
             if (window.location.href.indexOf("?mobile") < 0) {
                 try {
                     if (/iPhone|iPod|iPad/i.test(navigator.userAgent)) {
-                        $(".browser-guide").text("选择「在Safari中打开」后再次尝试~");
+                        $(".weixin-applink-text").text("选择「在Safari中打开」后再次尝试~");
                     }
                 } catch (e) {
                 }
@@ -51,7 +67,7 @@ $(document).ready(
 // 窗口大小发生改变
 $(window).resize(
     function () {
-        $(".titleImg").height((0.5 + $(".titleImg").width() / 16 * 9) | 0);
+        $(".m-title").height((0.5 + $(".m-title").width() / 16 * 9) | 0);
     }
 );
 
@@ -61,8 +77,8 @@ function openApp() {
         if (window.location.href.indexOf("?mobile") < 0) {
             try {
                 if (/micromessenger/i.test(navigator.userAgent)) {
-                    $(".backdrop-light").show();
-                    $(".weixin-browser-help").show();
+                    $(".m-backdrop").show();
+                    $(".weixin-applink").show();
                 }
                 else if (/Android/i.test(navigator.userAgent)) {
                     var url = 'youngpai://home';
@@ -79,7 +95,7 @@ function openApp() {
                     }, 400)
                 }
                 else if (/iPhone|iPod|iPad/i.test(navigator.userAgent)) {
-                    window.location = "youngpai://";
+                    window.location = "youngpai://";3
                     window.setTimeout(function () {
                         window.location = "http://pai.ycwb.com/responsive.html";
                     }, 400);

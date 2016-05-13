@@ -7,9 +7,10 @@
     <META HTTP-EQUIV="pragma" CONTENT="no-cache">
     <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
     <META HTTP-EQUIV="expires" CONTENT="0">
-    <!--Main css-->
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" media="screen">
+    <!--样式-->
     <link rel="stylesheet" href="stylesheets/swipebox.min.css">
+    <link rel="stylesheet" href="stylesheets/share.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" media="screen">
     <!--全角半角字符之间加空格-->
     <script src="javascripts/pangu.min.js"></script>
 
@@ -24,40 +25,54 @@
 </head>
 
 <body>
-<a href="javascript:void(null)" class="openApp">
-    <div class="header">
-        <img src="images/header.png">
+<a href="javascript:void(null)" class="js-applink">
+    <div class="m-header">
+        <img src="images/pic_header.png">
     </div>
 </a>
-<div class="titleImg">
-    <div class="titleArea">
-        <p class="titleText">世界这么大,你该去看看,这是好鬼长要两行才放得下的标题</p>
+<div class="m-title">
+    <div class="title-over">
+        <p class="title-text g-text-h3">世界这么大,你该去看看,这是好鬼长要两行才放得下的标题</p>
     </div>
 </div>
-<div class="activityInfo">
-    <p><span><i class="material-icons md-18 md-dark">watch_later</i></span>05月13日报名截止</p>
+<div class="m-infolist">
+    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">watch_later</i></span>05月13日报名截止</p>
     <hr>
-    <p><span><i class="material-icons md-18 md-dark">today</i></span>2016.05.13-2099.12.31</p>
+    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">today</i></span>2016.05.13-2099.12.31</p>
     <hr>
-    <p><span><i class="material-icons md-18 md-dark">account_balance_wallet</i></span>免费</p>
+    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">account_balance_wallet</i></span>免费</p>
     <hr>
-    <p><span><i class="material-icons md-18 md-dark">place</i></span>Lane 23, Ordinary Road, GuangZhou</p>
+    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">place</i></span>Lane 23, Ordinary Road, GuangZhou</p>
     <hr>
-    <p><span><i class="material-icons md-18 md-dark">beenhere</i></span>KIT-羊城派</p>
+    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">beenhere</i></span>KIT-羊城派</p>
     <hr>
-    <p><span><i class="material-icons md-18 md-dark">call</i></span>活动当日找何小姐(+8613912341234)签到进场</p>
+    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">call</i></span>活动当日找何小姐(+8613912341234)签到进场</p>
 </div>
-<div class="mainText">
-    <div class="footer openApp">
-        <a href="javascript:void(null)" target="_blank">打开羊城派，查看更多精彩内容</a>
-    </div>
+<div class="m-content">
+
 </div>
-<div class="backdrop backdrop-light"></div>
-<div class="help-modal weixin-browser-help">
+<div class="m-backdrop"></div>
+<div class="ui-modal weixin-applink">
     <div>
-        <p class="text-blue">请点击右上角的「 ••• 」按钮</p>
-        <p class="browser-guide">选择「在浏览器中打开」后再次尝试~</p>
+        <p class="g-text-blue g-text-l">请点击右上角的「 ••• 」按钮</p>
+        <p class="weixin-applink-text g-text-l g-text-black-1">选择「在浏览器中打开」后再次尝试~</p>
     </div>
+</div>
+<div class="ui-modal weixin-share">
+    <div>
+        <p class="g-text-blue g-text-l">请点击右上角的「 ••• 」按钮</p>
+        <p class="g-text-l g-text-black-1">选择「分享到朋友圈」或其他分享方式~</p>
+    </div>
+</div>
+<div class="m-footer social-share" data-initialized="true">
+    <div class="footer-applink js-applink">
+        <img class="footer-applink-icon" src="images/icon.png"/>
+        <p class="footer-applink-text g-text-s g-text-black-3">立即打开></p>
+    </div>
+    <a href="#" class="social-share-icon icon-qzone"></a>
+    <a href="#" class="social-share-icon icon-qq"></a>
+    <a href="#" class="social-share-icon icon-weibo"></a>
+    <a href="#" class="social-share-icon icon-wechat"></a>
 </div>
 </body>
 <!--Please use jquery 2.0+-->
@@ -66,6 +81,8 @@
 <script src="javascripts/jquery.swipebox.js"></script>
 <!--Lazy load-->
 <script src="javascripts/jquery.lazyload.min.js"></script>
+<!--Share.js-->
+<script src="javascripts/jquery.share.min.js"></script>
 <!--Content generator-->
 <script src="javascripts/myGenerator.js?v=051101"></script>
 <!--Main js-->
