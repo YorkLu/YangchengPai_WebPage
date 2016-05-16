@@ -1,16 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cmn-Hans"> <!-- 更加标准的 lang 属性写法 http://zhi.hu/XyIa -->
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <META HTTP-EQUIV="pragma" CONTENT="no-cache">
-    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
-    <META HTTP-EQUIV="expires" CONTENT="0">
+    <!-- 声明文档使用的字符编码 -->
+    <meta charset='utf-8'>
+    <!-- 优先使用 IE 最新版本和 Chrome -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <!-- 页面描述 -->
+    <meta name="description" content="【文章首段文字】不超过75中文字,150个字符"/>
+    <!-- 页面关键词 -->
+    <meta name="keywords" content="羊城派"/>
+    <!-- 网页作者 -->
+    <meta name="author" content="羊城派"/>
+    <!-- 为移动设备添加 viewport -->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!-- 添加智能 App 下载推荐 Smart App Banner（iOS 6+ Safari） -->
+    <meta name="apple-itunes-app" content="app-id=1069312241, app-argument=youngpai://">
+    <!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+    <meta name="format-detection" content="telphone=no, email=no"/>
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 防止页面被各种转码 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <link rel="shortcut icon" type="image/ico" href="http://ycp.ycwb.com/res/static/images/logo.ico"/>
+    <!-- 添加 favicon icon -->
+
+    <!-- sns 社交标签 begin -->
+    <!-- 参考微博API -->
+    <meta property="og:type" content="article"/>
+    <meta property="og:site_name" content="羊城派">
+    <meta property="og:url" content="【URL地址】"/>
+    <meta property="og:title" content="【文章标题】"/>
+    <meta property="og:image" content="【标题图URL】"/>
+    <meta property="og:description" content="【文章首段文字】不超过75中文字,150个字符"/>
+    <!-- sns 社交标签 end -->
+
+    <title>活动 | 世界这么大,你该去看看</title>
+
     <!--样式-->
     <link rel="stylesheet" href="stylesheets/swipebox.min.css">
     <link rel="stylesheet" href="stylesheets/share.min.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css?v=0516" media="screen">
+
     <!--全角半角字符之间加空格-->
     <script src="javascripts/pangu.min.js"></script>
 
@@ -21,35 +55,53 @@
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>羊城派 - 活动详情</title>
+    <!-- Baidu stat start -->
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?5f30a9476dad09ecf60079dce302c049";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <!-- Baidu stat end -->
 </head>
 
 <body>
-<a href="javascript:void(null)" class="js-applink">
+<!-- 为实现点击事件统计，加入class ycp_lnk_foot -->
+<a href="javascript:void(null)" class="js-applink ycp_lnk_head">
     <div class="m-header">
         <img src="images/pic_header.png">
     </div>
 </a>
 <div class="m-title">
     <div class="title-over">
-        <p class="title-text g-text-h3">世界这么大,你该去看看,这是好鬼长要两行才放得下的标题</p>
+        <p class="title-text g-text-h3">活动 | 世界这么大,你该去看看</p>
     </div>
 </div>
 <div class="m-infolist">
-    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">watch_later</i></span>05月13日报名截止</p>
+    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">watch_later</i></span>05月16日报名截止
+    </p>
     <hr>
-    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">today</i></span>2016.05.13-2099.12.31</p>
+    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">today</i></span>2016.05.18-2099.12.31
+    </p>
     <hr>
-    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">account_balance_wallet</i></span>免费</p>
+    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">account_balance_wallet</i></span>免费
+    </p>
     <hr>
-    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">place</i></span>Lane 23, Ordinary Road, GuangZhou</p>
+    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">place</i></span>Lane 23, Ordinary
+        Road, GuangZhou</p>
     <hr>
     <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">beenhere</i></span>KIT-羊城派</p>
     <hr>
-    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">call</i></span>活动当日找何小姐(+8613912341234)签到进场</p>
+    <p class="g-text-black-2 g-text-m"><span><i class="material-icons md-18 md-dark">call</i></span>活动当日找何小姐(+8613912341234)签到进场
+    </p>
 </div>
 <div class="m-content">
-
+</div>
+<div class="m-comments">
+    <img src="images/pic_comment_empty.png" class="comment-empty"/>
 </div>
 <div class="m-backdrop"></div>
 <div class="ui-modal weixin-applink">
@@ -64,29 +116,41 @@
         <p class="g-text-l g-text-black-1">选择「分享到朋友圈」或其他分享方式~</p>
     </div>
 </div>
-<div class="m-footer social-share" data-initialized="true">
-    <div class="footer-applink js-applink">
+<div class="m-footer">
+    <div class="footer-applink js-applink ">
         <img class="footer-applink-icon" src="images/icon.png"/>
         <p class="footer-applink-text g-text-s g-text-black-3">立即打开></p>
     </div>
-    <a href="#" class="social-share-icon icon-qzone"></a>
-    <a href="#" class="social-share-icon icon-qq"></a>
-    <a href="#" class="social-share-icon icon-weibo"></a>
-    <a href="#" class="social-share-icon icon-wechat"></a>
 </div>
 </body>
 <!--Please use jquery 2.0+-->
 <script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script>
 <!--Swipebox-->
-<script src="javascripts/jquery.swipebox.js"></script>
+<script src="javascripts/jquery.swipebox.js?v=0516"></script>
 <!--Lazy load-->
-<script src="javascripts/jquery.lazyload.min.js"></script>
+<script src="javascripts/jquery.lazyload.min.js?v=0516"></script>
 <!--Share.js-->
-<script src="javascripts/jquery.share.min.js"></script>
+<script src="javascripts/jquery.share.min.js?v=0516"></script>
 <!--Content generator-->
-<script src="javascripts/myGenerator.js?v=051101"></script>
+<script src="javascripts/myGenerator.js?v=0516"></script>
 <!--Main js-->
-<script src="javascripts/main.js?v=051101"></script>
+<script src="javascripts/main.js?v=0516"></script>
 <!--Chinese "lorem ipsum"-->
-<script src="javascripts/moretext-1.2.js?v=050401"></script>
+<script src="javascripts/moretext-1.2.js?v=0516"></script>
+<!-- cnzz stat start -->
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cspan id='cnzz_stat_icon_1258709694'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1258709694%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+var _czc = _czc || [];
+_czc.push(["_setAccount", "1258709694"]);
+// 添加事件统计代码，需要获频道名（新热榜、记者帮-求助/跟进、活动派等），行为，栏目-文章标题
+$('.ycp_lnk_head').bind('click,tap',function () {
+    _czc.push(['_trackEvent', '活动派', '顶部-下载', $('.title-text').text()]);
+    window._hmt && window._hmt.push(['_trackEvent', '活动派', '顶部-下载', $('.title-text').text()]);
+});
+$('.ycp_lnk_foot').bind('click,tap',function () {
+    _czc.push(['_trackEvent', '活动派', '底部-下载', $('.title-text').text()]);
+    window._hmt && window._hmt.push(['_trackEvent', '活动派', '底部-下载', $('.title-text').text()]);
+});
+</script>
+<!-- cnzz stat end -->
 </html>

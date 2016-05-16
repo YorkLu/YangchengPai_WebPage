@@ -27,6 +27,10 @@ function contentGenerator() {
         tempIm(seed, i);
         imgCounter++;
     }
+
+    for(var i=0;i<Math.round(Math.random()*10);i++){
+        loremComment();
+    }
 }
 
 /*
@@ -91,15 +95,19 @@ function placemat(seed, i) {
     $(".m-content").append(aTag);
 }
 
-// http://lorempixel.com/
-function lorempixel(seed, i) {
-    if (seed > 0.66) {
-        $(".m-footer").before('<img data-original="http://lorempixel.com/animals/400/' + (200 + i + '') + '" src="images/pic_grey_logo.png">');
+// 生成评论
+function loremComment() {
+    var userImg, userName, commentTime, commentText, commentImgArr;
+    userImg = 'http://www.66tools.com/WebTools/rImage?p=56-56-random-'+(Math.round(Math.random()*100)+'');
+    userName = 'userName';
+    commentTime = '刚刚';
+    commentText = '';
+
+    commentImgArr = [];
+    for(var i=0;i<Math.round(Math.random()*5);i++){
+        var url = 'http://www.66tools.com/WebTools/rImage?p=400-'+(225+Math.round(Math.random()*175)+'');
+        commentImgArr.push(url);
     }
-    else if (seed > 0.33) {
-        $(".m-footer").before('<img data-original="http://lorempixel.com/city/400/' + (300 + i + '') + '" src="images/pic_grey_logo.png">');
-    }
-    else {
-        $(".m-footer").before('<img data-original="http://lorempixel.com/nature/400/' + (400 + i + '') + '" src="images/pic_grey_logo.png">');
-    }
+    
+    addComment(userImg, userName, commentTime, commentText, commentImgArr);
 }

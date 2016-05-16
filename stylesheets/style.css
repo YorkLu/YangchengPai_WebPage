@@ -75,7 +75,9 @@ html, body {
 }
 
 body{
-    padding-bottom: 44px;
+    /*padding-bottom: 44px;*/
+    /* 本来应该是44,为了隐藏站长之家统计代码带来的小图标,改为目前的值 */
+    padding-bottom: 22px;
 }
 
 /* 顶部 applink */
@@ -179,6 +181,73 @@ body{
     margin-top: 8px;
 }
 
+/* 评论列表 */
+.m-comments {
+    background: white;
+    padding: 0 0 8px;
+    margin: 8px auto 0;
+    overflow: auto;
+}
+
+.m-comments .comments-item{
+    padding: 12px 12px 8px;
+    overflow: auto;
+}
+
+.m-comments .comments-item+.comments-item{
+    /* 相邻两个评论之间用分隔线隔开 */
+    border-top: 1px solid #dbdbdb;
+}
+
+.m-comments .comments-item .user-avatar{
+    float: left;
+    width: 28pt;
+    height: 28pt;
+    border-radius: 28pt;
+}
+
+
+.m-comments .comments-item .user-info {
+    float: left;
+    margin-left: 8px;
+}
+
+.m-comments .comments-item .user-info .user-name{
+    padding: 0;
+    margin: 0;
+    line-height: 14pt;
+}
+
+.m-comments .comments-item .user-info .comment-time{
+    padding: 0;
+    margin: 0;
+    line-height: 14pt;
+}
+
+.m-comments .comments-item .comment-content{
+    padding: 0;
+    margin: 36pt 0 0;
+}
+
+.m-comments .comments-item .comment-content p{
+    padding: 0;
+    margin: 0;
+}
+
+/* 静态页中评论图片宽度占满 */
+.m-comments .comments-item .comment-content img{
+    width: 100%;
+    height: auto;
+    margin-top: 8px;
+}
+
+/* 占位图 */
+.m-comments .comment-empty{
+    width: 60%;
+    height: auto;
+    margin: 20px 20%;
+}
+
 /* 底栏 */
 .m-footer {
     position: fixed;
@@ -217,7 +286,7 @@ body{
 
 /* PC端 */
 @media (min-width: 751px) {
-    .m-header, .m-title, .m-footer {
+    .m-header, .m-title, .m-footer,.m-comments{
         max-width: 750px;
     }
 
@@ -277,12 +346,6 @@ body{
     width: 0;
     height: 0;
     background-color: rgba(240, 240, 240, 0)
-}
-
-/* todo:最好通过改源码来修复这个问题 */
-/* 禁用 share.js 原有微信分享功能 */
-.wechat-qrcode{
-    display: none !important;
 }
 
 /* 静态页样式 结束 */

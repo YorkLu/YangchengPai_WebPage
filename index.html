@@ -131,16 +131,16 @@
     <a href="javascript:void(null)" jumpto="activity.html" class="button button-3d button-highlight button-block"><i class="fa fa-flag"></i> 求助详情</a>
     <a href="javascript:void(null)" jumpto="activity.html" class="button button-3d button-primary button-block"><i class="fa fa-bookmark"></i> 跟进详情</a>
     <a href="javascript:void(null)" jumpto="activity.html" class="button button-3d button-action button-block"><i class="fa fa-map-marker"></i> 活动详情</a>
-    <span class="button-dropdown" data-buttons="dropdown">
-        <button class="button">
-            <span id="zoom-op-text">Pinch-zoom Options </span>
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <ul class="button-dropdown-list">
-            <li id="zoom-op2"><a href="javascript:void(null)">No Pinch-zoom</a></li>
-            <li id="zoom-op1"><a href="javascript:void(null)">Pinch-zoom</a></li>
-        </ul>
-    </span>
+    <!--<span class="button-dropdown" data-buttons="dropdown">-->
+        <!--<button class="button">-->
+            <!--<span id="zoom-op-text">Pinch-zoom Options </span>-->
+            <!--<i class="fa fa-caret-down"></i>-->
+        <!--</button>-->
+        <!--<ul class="button-dropdown-list">-->
+            <!--<li id="zoom-op2"><a href="javascript:void(null)">No Pinch-zoom</a></li>-->
+            <!--<li id="zoom-op1"><a href="javascript:void(null)">Pinch-zoom</a></li>-->
+        <!--</ul>-->
+    <!--</span>-->
 </div>
 <div class="bottom-bar">
     <p class="copyright">Latest commit 12/05/2016</p>
@@ -151,24 +151,25 @@
 <script>
     var myurl = new objURL();
     $(document).ready(function () {
-        myurl.remove("zoom");
-        myurl.set("zoom","0");
-        window.history.pushState({},0,myurl.url());
-
-        $("#zoom-op1").bind("click tap",function () {
-            myurl.set("zoom",'1');
-            $("#zoom-op-text").text("Pinch-zoom ");
-            window.history.pushState({},0,myurl.url());
-        });
-
-        $("#zoom-op2").bind("click tap",function () {
-            myurl.set("zoom",'0');
-            $("#zoom-op-text").text("No Pinch-zoom ");
-            window.history.pushState({},0,myurl.url());
-        });
-
+//        myurl.remove("zoom");
+//        myurl.set("zoom","0");
+//        window.history.pushState({},0,myurl.url());
+//
+//        $("#zoom-op1").bind("click tap",function () {
+//            myurl.set("zoom",'1');
+//            $("#zoom-op-text").text("Pinch-zoom ");
+//            window.history.pushState({},0,myurl.url());
+//        });
+//
+//        $("#zoom-op2").bind("click tap",function () {
+//            myurl.set("zoom",'0');
+//            $("#zoom-op-text").text("No Pinch-zoom ");
+//            window.history.pushState({},0,myurl.url());
+//        });
+//
         $(".main-content>a").bind("click tap",function () {
-            var url = $(this).attr("jumpto")+'?zoom='+myurl.get("zoom");
+//            var url = $(this).attr("jumpto")+'?zoom='+myurl.get("zoom");
+            var url = $(this).attr("jumpto");
             location.href = url;
         })
     });
