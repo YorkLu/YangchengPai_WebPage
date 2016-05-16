@@ -28,7 +28,7 @@ function contentGenerator() {
         imgCounter++;
     }
 
-    for(var i=0;i<Math.round(Math.random()*10);i++){
+    for(var i=0;i<Math.round(Math.random()*5);i++){
         loremComment();
     }
 }
@@ -100,7 +100,7 @@ function loremComment() {
     var userImg, userName, commentTime, commentText, commentImgArr;
     userImg = 'http://www.66tools.com/WebTools/rImage?p=56-56-random-'+(Math.round(Math.random()*100)+'');
     userName = 'userName';
-    commentTime = '刚刚';
+    commentTime = '1小时前';
     commentText = '';
 
     commentImgArr = [];

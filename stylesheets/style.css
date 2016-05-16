@@ -189,6 +189,27 @@ body{
     overflow: auto;
 }
 
+.m-comments .comments-title{
+    width: 100%;
+}
+
+.m-comments .comments-title{
+    width: 100%;
+}
+
+.m-comments .comments-title p{
+    padding: 0;
+    margin: -7px 8px 0px 12px;
+    background: white;
+    width: 55px;
+}
+
+.m-comments .comments-title hr{
+    border: none;
+    border-top: 1px solid #dbdbdb;
+    margin: 18px 12px 0px;
+}
+
 .m-comments .comments-item{
     padding: 12px 12px 8px;
     overflow: auto;

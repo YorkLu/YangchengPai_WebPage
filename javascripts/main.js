@@ -202,7 +202,7 @@ function addComment(userImg, userName, commentTime, commentText, commentImgArr) 
 
     // 评论时间
     var commentTimeTag = $('<p></p>')
-    commentTimeTag.addClass("comment-time g-text-s g-text-black-2");
+    commentTimeTag.addClass("comment-time g-text-s g-text-black-4");
     commentTimeTag.text(commentTime);
 
     // 评论内容
@@ -219,6 +219,7 @@ function addComment(userImg, userName, commentTime, commentText, commentImgArr) 
     userInfoTag.append(commentTimeTag);
 
     // 组合评论内容,galleryID用于分隔图册
+    commentContentTag.append(commentTextTag);
     for(var i=0;i<commentImgArr.length;i++){
         var aTag = $('<a href="" class="swipebox"></a>');
         var imgTag = $('<img src="images/pic_grey_logo.png" alt="image"/>');
