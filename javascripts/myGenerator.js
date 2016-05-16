@@ -28,8 +28,10 @@ function contentGenerator() {
         imgCounter++;
     }
 
-    for(var i=0;i<Math.round(Math.random()*5);i++){
-        loremComment();
+    if (Math.random() > 0.5) {
+        for (var i = 0; i < 1 + Math.round(Math.random() * 9); i++) {
+            loremComment();
+        }
     }
 }
 
@@ -98,16 +100,16 @@ function placemat(seed, i) {
 // 生成评论
 function loremComment() {
     var userImg, userName, commentTime, commentText, commentImgArr;
-    userImg = 'http://www.66tools.com/WebTools/rImage?p=56-56-random-'+(Math.round(Math.random()*100)+'');
+    userImg = 'http://www.66tools.com/WebTools/rImage?p=56-56-random-' + (Math.round(Math.random() * 100) + '');
     userName = 'userName';
     commentTime = '1小时前';
     commentText = '';
 
     commentImgArr = [];
-    for(var i=0;i<Math.round(Math.random()*5);i++){
-        var url = 'http://www.66tools.com/WebTools/rImage?p=400-'+(225+Math.round(Math.random()*175)+'');
+    for (var i = 0; i < Math.round(Math.random() * 5); i++) {
+        var url = 'http://www.66tools.com/WebTools/rImage?p=400-' + (225 + Math.round(Math.random() * 175) + '');
         commentImgArr.push(url);
     }
-    
+
     addComment(userImg, userName, commentTime, commentText, commentImgArr);
 }

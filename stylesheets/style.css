@@ -74,7 +74,7 @@ html, body {
     background: #f6f6f6;
 }
 
-body{
+body {
     /*padding-bottom: 44px;*/
     /* 本来应该是44,为了隐藏站长之家统计代码带来的小图标,改为目前的值 */
     padding-bottom: 22px;
@@ -189,81 +189,80 @@ body{
     overflow: auto;
 }
 
-.m-comments .comments-title{
+.m-comments .comments-title {
     width: 100%;
 }
 
-.m-comments .comments-title{
+.m-comments .comments-title {
     width: 100%;
 }
 
-.m-comments .comments-title p{
+.m-comments .comments-title p {
     padding: 0;
     margin: -7px 8px 0px 12px;
     background: white;
     width: 55px;
 }
 
-.m-comments .comments-title hr{
+.m-comments .comments-title hr {
     border: none;
     border-top: 1px solid #dbdbdb;
     margin: 18px 12px 0px;
 }
 
-.m-comments .comments-item{
+.m-comments .comments-item {
     padding: 12px 12px 8px;
     overflow: auto;
 }
 
-.m-comments .comments-item+.comments-item{
+.m-comments .comments-item + .comments-item {
     /* 相邻两个评论之间用分隔线隔开 */
     border-top: 1px solid #dbdbdb;
 }
 
-.m-comments .comments-item .user-avatar{
+.m-comments .comments-item .user-avatar {
     float: left;
     width: 28pt;
     height: 28pt;
     border-radius: 28pt;
 }
 
-
 .m-comments .comments-item .user-info {
     float: left;
     margin-left: 8px;
 }
 
-.m-comments .comments-item .user-info .user-name{
+.m-comments .comments-item .user-info .user-name {
     padding: 0;
     margin: 0;
     line-height: 14pt;
 }
 
-.m-comments .comments-item .user-info .comment-time{
+.m-comments .comments-item .user-info .comment-time {
     padding: 0;
     margin: 0;
     line-height: 14pt;
 }
 
-.m-comments .comments-item .comment-content{
+.m-comments .comments-item .comment-content {
     padding: 0;
     margin: 36pt 0 0;
 }
 
-.m-comments .comments-item .comment-content p{
+.m-comments .comments-item .comment-content p {
     padding: 0;
     margin: 0;
 }
 
 /* 静态页中评论图片宽度占满 */
-.m-comments .comments-item .comment-content img{
+.m-comments .comments-item .comment-content img {
     width: 100%;
     height: auto;
     margin-top: 8px;
 }
 
 /* 占位图 */
-.m-comments .comment-empty{
+.m-comments .comment-empty {
     width: 60%;
     height: auto;
     margin: 20px 20%;
@@ -301,13 +300,13 @@ body{
     float: right;
 }
 
-.m-footer .icon-qzone{
+.m-footer .icon-qzone {
     margin-right: 12px;
 }
 
 /* PC端 */
 @media (min-width: 751px) {
-    .m-header, .m-title, .m-footer,.m-comments{
+    .m-header, .m-title, .m-footer, .m-comments {
         max-width: 750px;
     }
 
@@ -353,12 +352,12 @@ body{
 }
 
 /* 微信提示 */
-.weixin-applink,.weixin-share {
+.weixin-applink, .weixin-share {
     top: 10px;
     display: none;
 }
 
-.weixin-applink p,.weixin-share p {
+.weixin-applink p, .weixin-share p {
     margin: 10px auto 10px;;
 }
 

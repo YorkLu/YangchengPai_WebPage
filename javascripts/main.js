@@ -26,7 +26,7 @@ $(document).ready(
         });
 
         // 灯箱效果(模态对话框样式查看图片)
-        $( '.swipebox' ).swipebox({
+        $('.swipebox').swipebox({
             hideBarsDelay: 6000
         });
 
@@ -40,7 +40,7 @@ $(document).ready(
 
         // 添加分享模块
         $(".m-footer").addClass("social-share");
-        $(".m-footer").attr("data-initialized","true");
+        $(".m-footer").attr("data-initialized", "true");
         $(".m-footer").append($('<a href="#" class="social-share-icon icon-qzone"></a>'));
         $(".m-footer").append($('<a href="#" class="social-share-icon icon-qq"></a>'));
         $(".m-footer").append($('<a href="#" class="social-share-icon icon-weibo"></a>'));
@@ -48,12 +48,12 @@ $(document).ready(
 
         var imgForShare = $('<img src=""/>');
         var imgURL = $(".m-title").css("backgroundImage");
-        imgForShare.attr("src",imgURL.substring(5,imgURL.length-2));
-        imgForShare.css("display","none");
+        imgForShare.attr("src", imgURL.substring(5, imgURL.length - 2));
+        imgForShare.css("display", "none");
         $(".js-applink").before(imgForShare);
         var $config = {
-            sites               : ['qzone', 'qq', 'weibo','wechat'], // 启用的站点
-            source              : 'http://pai.ycwb.com/', // 来源（QQ空间会用到）, 默认读取head标签：<meta name="site" content="http://overtrue" />
+            sites: ['qzone', 'qq', 'weibo', 'wechat'], // 启用的站点
+            source: 'http://pai.ycwb.com/', // 来源（QQ空间会用到）, 默认读取head标签：<meta name="site" content="http://overtrue" />
         };
 
         $('.social-share').share($config);
@@ -66,15 +66,15 @@ $(document).ready(
                         // iOS设备中文字提示不同
                         $(".weixin-applink-text").text("选择「在Safari中打开」后再次尝试~");
                     }
-                    if (/micromessenger/i.test(navigator.userAgent)){
+                    if (/micromessenger/i.test(navigator.userAgent)) {
                         // 在微信中不现实分享二维码,显示分享提示
-                        $(".wechat-qrcode").attr("style","display: none !important;")
+                        $(".wechat-qrcode").attr("style", "display: none !important;")
                         $(".icon-wechat").bind('top click', function () {
                             $(".m-backdrop").show();
                             $(".weixin-share").show();
                         });
                     }
-                    else{
+                    else {
                         // 移动端&&不在微信中打开则隐藏微信分享按钮
                         $(".icon-wechat").hide();
                     }
@@ -116,7 +116,8 @@ function openApp() {
                     }, 400)
                 }
                 else if (/iPhone|iPod|iPad/i.test(navigator.userAgent)) {
-                    window.location = "youngpai://";3
+                    window.location = "youngpai://";
+                    3
                     window.setTimeout(function () {
                         window.location = "http://pai.ycwb.com/responsive.html";
                     }, 400);
@@ -172,13 +173,13 @@ function addComment(userImg, userName, commentTime, commentText, commentImgArr) 
     $(".comment-empty").hide();
 
     // 异常处理
-    if(userImg == ""){
+    if (userImg == "") {
         userImg = "images/pic_user_default.png";
     }
-    if(userName === undefined){
+    if (userName === undefined) {
 
     }
-    if(commentImgArr === undefined ){
+    if (commentImgArr === undefined) {
         commentImgArr = [];
     }
 
@@ -193,7 +194,7 @@ function addComment(userImg, userName, commentTime, commentText, commentImgArr) 
     // 用户头像
     var userAvatarTag = $('<img src=""/>');
     userAvatarTag.addClass("user-avatar");
-    userAvatarTag.attr("src",userImg);
+    userAvatarTag.attr("src", userImg);
 
     // 用户名称
     var userNameTag = $('<p></p>')
@@ -220,12 +221,12 @@ function addComment(userImg, userName, commentTime, commentText, commentImgArr) 
 
     // 组合评论内容,galleryID用于分隔图册
     commentContentTag.append(commentTextTag);
-    for(var i=0;i<commentImgArr.length;i++){
+    for (var i = 0; i < commentImgArr.length; i++) {
         var aTag = $('<a href="" class="swipebox"></a>');
         var imgTag = $('<img src="images/pic_grey_logo.png" alt="image"/>');
         aTag.attr("href", commentImgArr[i]);
         aTag.attr("title", "");
-        aTag.attr("rel","gallery"+(commentCtn+''));
+        aTag.attr("rel", "gallery" + (commentCtn + ''));
         imgTag.attr("data-original", commentImgArr[i]);
         aTag.append(imgTag);
         commentContentTag.append(aTag);
